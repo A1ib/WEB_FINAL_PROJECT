@@ -1,0 +1,1859 @@
+@prefix : <http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#> .
+
+<http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0a5875a2_9533_45c1_870a_5b02b28f51e1
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0a5875a2_9533_45c1_870a_5b02b28f51e1> rdf:type owl:ObjectProperty ;
+                                                                                                             rdfs:subPropertyOf owl:topObjectProperty ;
+                                                                                                             rdf:type owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Difficulty ;
+                                                                                                             rdfs:range <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb> ;
+                                                                                                             rdfs:label "is difficulty easy"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Game ;
+                                                                                                             rdfs:range :Session ;
+                                                                                                             rdfs:label "has_session"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Game ;
+                                                                                                             rdfs:range :Event ;
+                                                                                                             rdfs:label "has_event"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_17289fbb_7d91_440e_8ed2_273b2a5a37f4
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_17289fbb_7d91_440e_8ed2_273b2a5a37f4> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Curiosity ;
+                                                                                                             rdfs:label "has_curiosity"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Vituosity ;
+                                                                                                             rdfs:label "has_vituosity"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_30cb11ab_38b7_4bb7_8e2c_33b5a0ce135e
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_30cb11ab_38b7_4bb7_8e2c_33b5a0ce135e> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Completion ;
+                                                                                                             rdfs:label "has_completion"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_32141b3c_2614_4244_b3ef_e3e25ccc1cba
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_32141b3c_2614_4244_b3ef_e3e25ccc1cba> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Event ;
+                                                                                                             rdfs:range :Menu_Event ;
+                                                                                                             rdfs:label "has_menu_event"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_345e71cf_8685_45f6_9b40_4106c715e966
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_345e71cf_8685_45f6_9b40_4106c715e966> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Fandom ;
+                                                                                                             rdfs:label "has_fandom"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_477f4d0c_fb71_454c_8075_31512a1d1f19
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_477f4d0c_fb71_454c_8075_31512a1d1f19> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Loyalty ;
+                                                                                                             rdfs:label "has_loyalty"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_4b9ae9ec_d8a2_4b94_8b5d_2bb23dd77259
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_4b9ae9ec_d8a2_4b94_8b5d_2bb23dd77259> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Event ;
+                                                                                                             rdfs:range :Game_Event ;
+                                                                                                             rdfs:label "has_game_event"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Minigame ;
+                                                                                                             rdfs:label "has_minigame"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Event ;
+                                                                                                             rdfs:range :Player_Event ;
+                                                                                                             rdfs:label "has_player_event"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_87f5677c_ad41_41e2_ad56_0b9e94757d34
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_87f5677c_ad41_41e2_ad56_0b9e94757d34> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Game_Event ;
+                                                                                                             rdfs:range :Gain_Event ;
+                                                                                                             rdfs:label "has_gain_event"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_a34b2f8d_ad19_49b2_a9f7_950a713c91e9
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_a34b2f8d_ad19_49b2_a9f7_950a713c91e9> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Difficulty ;
+                                                                                                             rdfs:range <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_15756aa1_1619_4f9b_883f_8e33fb7ec005> ;
+                                                                                                             rdfs:label "is difficulty hard"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_aa560e34_d0c6_4c38_8d53_ee1c99a4d909
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_aa560e34_d0c6_4c38_8d53_ee1c99a4d909> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Multiplayer ;
+                                                                                                             rdfs:label "has_multiplayer"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Veteran ;
+                                                                                                             rdfs:label "has_veteran"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_c1f7362b_eadb_40fa_b10e_32b81db45d21
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_c1f7362b_eadb_40fa_b10e_32b81db45d21> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Tutorial ;
+                                                                                                             rdfs:label "has_tutorial"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ce550fb5_feb5_44fe_9fa5_622966cfa2bd
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ce550fb5_feb5_44fe_9fa5_622966cfa2bd> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Difficulty ;
+                                                                                                             rdfs:label "has_difficulty"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Game ;
+                                                                                                             rdfs:range <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4> ;
+                                                                                                             rdfs:label "has_map"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :gaming_companies ;
+                                                                                                             rdfs:range :Game ;
+                                                                                                             rdfs:label "has_game"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Difficulty ;
+                                                                                                             rdfs:label "has_difficulty"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ddb579bf_d5dd_47d7_b91c_df7ac3b98e11
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ddb579bf_d5dd_47d7_b91c_df7ac3b98e11> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Special_play_style ;
+                                                                                                             rdfs:label "has_special_play_style"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ea920f1b_4704_420d_b18f_338d5584ea97
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ea920f1b_4704_420d_b18f_338d5584ea97> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Collection ;
+                                                                                                             rdfs:label "has_collection"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ed48ff91_19a6_4d40_9cbf_420616615d35
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ed48ff91_19a6_4d40_9cbf_420616615d35> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Difficulty ;
+                                                                                                             rdfs:range <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f> ;
+                                                                                                             rdfs:label "is difficulty intermediate"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f2b27d2e_d49d_4f6f_8cb1_8c70216f4c84
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f2b27d2e_d49d_4f6f_8cb1_8c70216f4c84> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Game_Event ;
+                                                                                                             rdfs:range :Lose_Event ;
+                                                                                                             rdfs:label "has_loss_event"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f31793c9_a0c4_405f_9245_87682e47ee97
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f31793c9_a0c4_405f_9245_87682e47ee97> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Paragon ;
+                                                                                                             rdfs:label "has_paragon"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039> rdf:type owl:ObjectProperty ,
+                                                                                                                      owl:SymmetricProperty ;
+                                                                                                             rdfs:domain :Achievement ;
+                                                                                                             rdfs:range :Luck ;
+                                                                                                             rdfs:label "has_luck"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#creator
+:creator rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         rdf:type owl:InverseFunctionalProperty ;
+         rdfs:domain :Game ;
+         rdfs:range :gaming_companies .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement
+:has_achievement rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :is_achievement_in_game ;
+                 rdf:type owl:SymmetricProperty ;
+                 rdfs:domain :Game ;
+                 rdfs:range :Achievement .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_character
+:has_character rdf:type owl:ObjectProperty ;
+               owl:inverseOf :is_character_in_game ;
+               rdf:type owl:SymmetricProperty ;
+               rdfs:domain :Game ;
+               rdfs:range :Character .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_feature
+:has_feature rdf:type owl:ObjectProperty ,
+                      owl:SymmetricProperty ;
+             rdfs:domain :Item ;
+             rdfs:range :Feature .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_game_genre
+:has_game_genre rdf:type owl:ObjectProperty ,
+                         owl:SymmetricProperty ;
+                rdfs:domain :Game ;
+                rdfs:range :Genre .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_item
+:has_item rdf:type owl:ObjectProperty ;
+          owl:inverseOf :is_item_in_game ;
+          rdf:type owl:SymmetricProperty ;
+          rdfs:domain :Game ;
+          rdfs:range :Item .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_leaderboard
+:has_leaderboard rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :is_leaderboard_in_game ;
+                 rdf:type owl:SymmetricProperty ;
+                 rdfs:domain :Game ;
+                 rdfs:range :Leaderboard .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_platform
+:has_platform rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdf:type owl:SymmetricProperty ;
+              rdfs:domain :Plateforms ;
+              rdfs:range :Game .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_playing_area
+:has_playing_area rdf:type owl:ObjectProperty ,
+                           owl:SymmetricProperty ;
+                  rdfs:domain :Game ;
+                  rdfs:range :Playing_area .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#involves_achievement
+:involves_achievement rdf:type owl:ObjectProperty ;
+                      owl:inverseOf :is_achieved_in_session ;
+                      rdf:type owl:FunctionalProperty ;
+                      rdfs:domain :Session ;
+                      rdfs:range :Achievement .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#involves_character
+:involves_character rdf:type owl:ObjectProperty ;
+                    owl:inverseOf :is_character_in_session ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :Session ;
+                    rdfs:range :Character .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#involves_player
+:involves_player rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :is_player_in_session ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain :Session ;
+                 rdfs:range :Player .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_achieved_in_session
+:is_achieved_in_session rdf:type owl:ObjectProperty ,
+                                 owl:AsymmetricProperty ;
+                        rdfs:domain :Achievement ;
+                        rdfs:range :Session .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_achievement_in_game
+:is_achievement_in_game rdf:type owl:ObjectProperty ,
+                                 owl:AsymmetricProperty ;
+                        rdfs:domain :Achievement ;
+                        rdfs:range :Game .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_character_in_game
+:is_character_in_game rdf:type owl:ObjectProperty ,
+                               owl:AsymmetricProperty ;
+                      rdfs:domain :Character ;
+                      rdfs:range :Game .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_character_in_session
+:is_character_in_session rdf:type owl:ObjectProperty ,
+                                  owl:AsymmetricProperty ;
+                         rdfs:domain :Character ;
+                         rdfs:range :Session .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_even_triggered_by_character
+:is_even_triggered_by_character rdf:type owl:ObjectProperty ,
+                                         owl:AsymmetricProperty ;
+                                rdfs:domain :Event ;
+                                rdfs:range :Character .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_associated_to_player
+:is_event_associated_to_player rdf:type owl:ObjectProperty ,
+                                        owl:AsymmetricProperty ;
+                               rdfs:domain :Event ;
+                               rdfs:range :Player .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_in_game
+:is_event_in_game rdf:type owl:ObjectProperty ,
+                           owl:AsymmetricProperty ;
+                  rdfs:domain :Event ;
+                  rdfs:range :Game .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_in_session
+:is_event_in_session rdf:type owl:ObjectProperty ,
+                              owl:AsymmetricProperty ;
+                     rdfs:domain :Event ;
+                     rdfs:range :Session .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_related_to_item
+:is_event_related_to_item rdf:type owl:ObjectProperty ,
+                                   owl:AsymmetricProperty ;
+                          rdfs:domain :Event ;
+                          rdfs:range :Item .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_friend_with_player
+:is_friend_with_player rdf:type owl:ObjectProperty ;
+                       rdfs:subPropertyOf :knows ;
+                       rdf:type owl:AsymmetricProperty ;
+                       rdfs:domain :Player ;
+                       rdfs:range :Player ;
+                       rdfs:label "is friend with player"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_item_in_game
+:is_item_in_game rdf:type owl:ObjectProperty ,
+                          owl:AsymmetricProperty ;
+                 rdfs:domain :Item ;
+                 rdfs:range :Game .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_leaderboard_in_game
+:is_leaderboard_in_game rdf:type owl:ObjectProperty ,
+                                 owl:AsymmetricProperty ;
+                        rdfs:domain :Leaderboard ;
+                        rdfs:range :Game .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_player_in_session
+:is_player_in_session rdf:type owl:ObjectProperty ,
+                               owl:AsymmetricProperty ;
+                      rdfs:domain :Player ;
+                      rdfs:range :Session .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_session_in_game
+:is_session_in_game rdf:type owl:ObjectProperty ,
+                             owl:AsymmetricProperty ;
+                    rdfs:domain :Session ;
+                    rdfs:range :Game .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#knows
+:knows rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#lives_in
+:lives_in rdf:type owl:ObjectProperty ,
+                   owl:FunctionalProperty ;
+          rdfs:domain :Player ;
+          rdfs:range <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_achievement
+:owns_achievement rdf:type owl:ObjectProperty ,
+                           owl:FunctionalProperty ;
+                  rdfs:domain :Player ;
+                  rdfs:range :Achievement .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_character
+:owns_character rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain :Player ;
+                rdfs:range :Character .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_game
+:owns_game rdf:type owl:ObjectProperty ,
+                    owl:FunctionalProperty ;
+           rdfs:domain :gaming_companies ;
+           rdfs:range :Game .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_item
+:owns_item rdf:type owl:ObjectProperty ,
+                    owl:FunctionalProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :Item .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#plays_game
+:plays_game rdf:type owl:ObjectProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain :Player ;
+            rdfs:range :Game .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_game_offering
+:purchase_game_offering rdf:type owl:ObjectProperty ,
+                                 owl:SymmetricProperty ;
+                        rdfs:domain :In-App_Purchase_Event .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#unlocks_achievement
+:unlocks_achievement rdf:type owl:ObjectProperty ,
+                              owl:SymmetricProperty ;
+                     rdfs:domain :Event ;
+                     rdfs:range :Achievement .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#end_Time
+:end_Time rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Session ;
+          rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#event_Name
+:event_Name rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Event ;
+            rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#event_Time
+:event_Time rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Event ;
+            rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#release_Date
+:release_Date rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Game ;
+              rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#start_Time
+:start_Time rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Session ;
+            rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#username
+:username rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Player ;
+          rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_15756aa1_1619_4f9b_883f_8e33fb7ec005
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_15756aa1_1619_4f9b_883f_8e33fb7ec005> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf :Difficulty ;
+                                                                                                    owl:disjointWith <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb> ,
+                                                                                                                     <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f> ;
+                                                                                                    rdfs:comment "The HardMode difficulty achievement describes succeeding in a game on a hard level" ;
+                                                                                                    rdfs:label "Hard Mode"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_33c74812_4aa9_4ea7_b05c_2b211e54a66e
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_33c74812_4aa9_4ea7_b05c_2b211e54a66e> rdf:type owl:Class ;
+                                                                                                    rdfs:comment "GameProduct is anything that is for sale inside a game. These can be either normal game items purchased with in-game currency or with real world money."@en ;
+                                                                                                    rdfs:label "Gameproducts"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4> rdf:type owl:Class ;
+                                                                                                    rdfs:comment "Map defines the favriot map of the player."@en ;
+                                                                                                    rdfs:label "map"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf :Difficulty ;
+                                                                                                    owl:disjointWith <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f> ;
+                                                                                                    rdfs:comment "The EasyMode difficulty achievement describes succeeding in a game on a easy level" ;
+                                                                                                    rdfs:label "EasyMode"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4> ;
+                                                                                                    rdfs:comment "Location defines the location in map where the players die the most."@en ;
+                                                                                                    rdfs:label "Location"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf :Difficulty ;
+                                                                                                    rdfs:comment "The Intermediate Mode difficulty achievement describes succeeding in a game on a Intermediate level" ;
+                                                                                                    rdfs:label "Intermediate"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8> rdf:type owl:Class ;
+                                                                                                    rdfs:subClassOf :In-App_Purchase_Event ;
+                                                                                                    rdfs:comment "The players who have done the most in­app purchases lives in."@en ;
+                                                                                                    rdfs:label "Lives In"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement
+:Achievement rdf:type owl:Class ;
+             rdfs:comment "Achievement is a reward gained in a game due to some event accomplished in the game. Achievements are commonly used in game industry to reward players for having accomplished tasks in the game." ;
+             rdfs:label "Achievement"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Android
+:Android rdf:type owl:Class ;
+         rdfs:subClassOf :Plateforms ;
+         owl:disjointWith :Linux ,
+                          :Mac ,
+                          :VR ,
+                          :Windows ;
+         rdfs:comment "What are the best video games for android-based users.It defines all the games that can run on android operating system."@en ;
+         rdfs:label "Android"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character
+:Character rdf:type owl:Class ;
+           rdfs:comment "Character is any actor that can exists in a game. A character  can be a human-like creature as seen traditionally in video games. However, a character could also be a car, a paddle in game of Pong or spaceship of a space shooter game." ;
+           rdfs:label "Character"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Collection
+:Collection rdf:type owl:Class ;
+            rdfs:subClassOf :Achievement ;
+            rdfs:comment "Collection type of achievement is typically rewarded from collecting an amount of certain items in a game." ;
+            rdfs:label "Collection" .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Completion
+:Completion rdf:type owl:Class ;
+            rdfs:subClassOf :Achievement ;
+            rdfs:comment "Completion type of achievement is usually rewarded from successfully completing a certain goal or subgoal in a game."@en ;
+            rdfs:label "Completion"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Curiosity
+:Curiosity rdf:type owl:Class ;
+           rdfs:subClassOf :Achievement ;
+           rdfs:comment "Curiosity describes funny random things that can happen or be found in the game." ;
+           rdfs:label "Curiosity"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty
+:Difficulty rdf:type owl:Class ;
+            rdfs:subClassOf :Achievement ;
+            rdfs:comment "The difficulty achievement describes succeeding in a game on a difficulty level. An example could be completing the “Doom” game on Nightmare difficulty level." ;
+            rdfs:label "Difficulty"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event
+:Event rdf:type owl:Class ;
+       rdfs:comment "Event class describes an event that happens during the gameplay at a certain moment in time. This can be a player gaining an achievement, killing an enemy or making an in-app purchase." ;
+       rdfs:label "Event"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Fandom
+:Fandom rdf:type owl:Class ;
+        rdfs:subClassOf :Achievement ;
+        rdfs:comment "Fandom achievement is related to doing some true fan activities." ;
+        rdfs:label "Fandom"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Feature
+:Feature rdf:type owl:Class ;
+         rdfs:comment "Feature describes an ability or characteristic. For example, a sword could have “damage dealing” ability and a bottle of water could be “potable”." ;
+         rdfs:label "Feature"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Gain_Event
+:Gain_Event rdf:type owl:Class ;
+            rdfs:subClassOf :Game_Event ;
+            owl:disjointWith :Lose_Event ;
+            rdfs:comment "The GainEvent describes an event that is related to character/player gaining something in a game." ;
+            rdfs:label "Gain_Event"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game
+:Game rdf:type owl:Class ;
+      rdfs:comment "The Game class describes a game product that can be played by a player." ;
+      rdfs:label "Game"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game_Event
+:Game_Event rdf:type owl:Class ;
+            rdfs:subClassOf :Event ;
+            rdfs:comment "Game_Event describes an event that takes place in a game without straight player interaction. GameEvents are often very specific for each game." ;
+            rdfs:label "Game_Event"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Genre
+:Genre rdf:type owl:Class ;
+       rdfs:comment "Genre class describes the genre a game belongs to. All of the games have at least one genre. Examples of this are RPG, Simulator and Adventure" ;
+       rdfs:label "Genre"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#In-App_Purchase_Event
+:In-App_Purchase_Event rdf:type owl:Class ;
+                       rdfs:subClassOf :Event ;
+                       rdfs:comment "InAppPurchaseEvent describes an event that is related to making a purchase with real money inside a game. This is a subclass of InstantaneousEvent because it happens at certain moment in time." ;
+                       rdfs:label "In-App_Purchase_Event"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item
+:Item rdf:type owl:Class ;
+      rdfs:comment "Item portrays any item that exists in a game. The item can either be just visual part of the game or a concrete usable item." ;
+      rdfs:label "Item"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Leaderboard
+:Leaderboard rdf:type owl:Class ;
+             rdfs:subClassOf owl:Thing ;
+             rdfs:comment "Leaderboard class describes a ranking system of the players. There can be multiple rankings in a game, for example, the kill-count ranking of Modern Warfare or the best time listing of Formula 1 game." ;
+             rdfs:label "Leaderboard"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Linux
+:Linux rdf:type owl:Class ;
+       rdfs:subClassOf :Plateforms ;
+       owl:disjointWith :Mac ,
+                        :VR ,
+                        :Windows ;
+       rdfs:comment "What are the best video games for linux based users.It defines all the games that can run on linux based operating system."@en ;
+       rdfs:label "Linux"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Lose_Event
+:Lose_Event rdf:type owl:Class ;
+            rdfs:subClassOf :Game_Event ;
+            rdfs:comment "LoseEvent describes an event that is related to character/player losing something in a game. This is a subclass of GameEvent as gaining something is related to a specific game."@en ;
+            rdfs:label "Lose_Event"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Loyalty
+:Loyalty rdf:type owl:Class ;
+         rdfs:subClassOf :Achievement ;
+         rdfs:comment "Loyalty achievement is used to give recognition to loyal players." ;
+         rdfs:label "Loyalty"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Luck
+:Luck rdf:type owl:Class ;
+      rdfs:subClassOf :Achievement ;
+      rdfs:comment "Lucky describes an achievement that is awarded to the player in a lucky situation." ;
+      rdfs:label "Luck"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Mac
+:Mac rdf:type owl:Class ;
+     rdfs:subClassOf :Plateforms ;
+     owl:disjointWith :VR ,
+                      :Windows ;
+     rdfs:comment "What are the best video games for mac based users.It defines all the games that can run on mac based operating system."@en ;
+     rdfs:label "Mac"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Menu_Event
+:Menu_Event rdf:type owl:Class ;
+            rdfs:subClassOf :Event ;
+            rdfs:comment "Menu_Event describes an event that is related to interacting with the ingame menu." ;
+            rdfs:label "Menu_Event"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Minigame
+:Minigame rdf:type owl:Class ;
+          rdfs:subClassOf :Achievement ;
+          rdfs:comment "Minigame achievement describes success in mini-games that have been included in a certain game but are not vital for completing the game." ;
+          rdfs:label "Minigame"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Multiplayer
+:Multiplayer rdf:type owl:Class ;
+             rdfs:subClassOf :Achievement ;
+             rdfs:comment "Multiplayer achievement describes anything that can be awarded to one or multiple players due to their gameplay in multiplayer." ;
+             rdfs:label "Multiplayer"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Paragon
+:Paragon rdf:type owl:Class ;
+         rdfs:subClassOf :Achievement ;
+         rdfs:comment "Paragon is a rare achievement that is given only to limited number of players." ;
+         rdfs:label "Paragon"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Person
+:Person rdf:type owl:Class ;
+        rdfs:comment "Person describes the entity playing the game. This can be either a human or a computer."@en ;
+        rdfs:label "Person"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms
+:Plateforms rdf:type owl:Class ;
+            rdfs:comment "Video Games are classified by platforms where they can run and played by player."@en ;
+            rdfs:label "Platform"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player
+:Player rdf:type owl:Class ;
+        rdfs:subClassOf :Person ;
+        rdfs:comment "The Player describes the entity playing the game. This can be either a human or a computer. Player class is used to keep a profile of a certain playing entity and to connect all the games, achievements and characters he/she has. The Player is a subclass of Person as it contains all relative information of a certain person." ;
+        rdfs:label "Player" .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event
+:Player_Event rdf:type owl:Class ;
+              rdfs:subClassOf :Event ;
+              rdfs:comment "PlayerEvent describes a Event that is caused by the player."@en ;
+              rdfs:label "Player_Event"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Playing_area
+:Playing_area rdf:type owl:Class ;
+              rdfs:comment "PlayingArea is the description of a place where the gameplay takes place. All of the games have some kind of area where they are played in."@en ;
+              rdfs:label "Playing_Area"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session
+:Session rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing ;
+         rdfs:comment "Session class describes a session of gameplay." ;
+         rdfs:label "Session"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Special_play_style
+:Special_play_style rdf:type owl:Class ;
+                    rdfs:subClassOf :Achievement ;
+                    rdfs:comment "SpecialPlayStyle achievement is awarded to players after playing a game in special fashion. Often this is something harder than the regular play and requires more player experience to excel in it." ;
+                    rdfs:label "Special_play_style"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Tutorial
+:Tutorial rdf:type owl:Class ;
+          rdfs:subClassOf :Achievement ;
+          rdfs:comment "Tutorial achievement is  awarded to a player for trying out various features of the game. This is often related to learning how to play the game, how the controls work and how the game logic works." ;
+          rdfs:label "Tutorial"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#VR
+:VR rdf:type owl:Class ;
+    rdfs:subClassOf :Plateforms ;
+    owl:disjointWith :Windows ;
+    rdfs:comment "What are the best video games for users who uses virtual reality .It defines all the games that can run on HMDs (Head Mounted Displays) system."@en ;
+    rdfs:label "VR"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Veteran
+:Veteran rdf:type owl:Class ;
+         rdfs:subClassOf :Achievement ;
+         rdfs:comment "Veteran achievement is an award that is given for accumulating a lot of play hours or game actions." ;
+         rdfs:label "Veteran"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Vituosity
+:Vituosity rdf:type owl:Class ;
+           rdfs:subClassOf :Achievement ;
+           rdfs:comment "Virtuosity describes an achievement that is awarded for playing masterfully in the game." ;
+           rdfs:label "Vituosity"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Windows
+:Windows rdf:type owl:Class ;
+         rdfs:subClassOf :Plateforms ;
+         rdfs:comment "What are the best video games for windows based users.It defines all the games that can run on windows based operating system."@en ;
+         rdfs:label "Windows"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gaming_companies
+:gaming_companies rdf:type owl:Class ;
+                  rdfs:comment "Gaming Companies are the companies that developed video games for users."@en ;
+                  rdfs:label "Gaming_Companies"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://purl.obolibrary.org/obo/X_47
+<http://purl.obolibrary.org/obo/X_47> rdf:type owl:NamedIndividual ,
+                                               <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a> ;
+                                      <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904> <http://purl.obolibrary.org/obo/X_47> .
+
+
+###  http://purl.obolibrary.org/obo/Y_58
+<http://purl.obolibrary.org/obo/Y_58> rdf:type owl:NamedIndividual ,
+                                               <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a> ;
+                                      <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904> <http://purl.obolibrary.org/obo/Y_58> .
+
+
+###  http://purl.obolibrary.org/obo/Z_60
+<http://purl.obolibrary.org/obo/Z_60> rdf:type owl:NamedIndividual ,
+                                               <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a> ;
+                                      <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904> <http://purl.obolibrary.org/obo/Z_60> .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_00d1664c_3e45_44e0_b538_e7d9019581ae
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_00d1664c_3e45_44e0_b538_e7d9019581ae> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Plateforms ;
+                                                                                                              :has_platform <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_00d1664c_3e45_44e0_b538_e7d9019581ae> ;
+                                                                                                              rdfs:label "windows"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0476ba81_62e7_454c_98ba_b85cf8e30b6a
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0476ba81_62e7_454c_98ba_b85cf8e30b6a> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Cookie"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a2feac9_3da3_4020_bd90_2abaca44bb06
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a2feac9_3da3_4020_bd90_2abaca44bb06> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb> ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_345e71cf_8685_45f6_9b40_4106c715e966> :gathering_of_player ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c2e6f045_cf53_4bf5_9ed2_d3246352567d> ;
+                                                                                                              rdfs:label "Easy"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a42d63e_db01_4fac_a380_62745e6fd2ba
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a42d63e_db01_4fac_a380_62745e6fd2ba> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Potion of Mana"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a631160_c188_4d51_8759_50feb9b774f5
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a631160_c188_4d51_8759_50feb9b774f5> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Plateforms ;
+                                                                                                              :has_platform <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a631160_c188_4d51_8759_50feb9b774f5> ;
+                                                                                                              rdfs:label "android"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "veteran"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0deb6ea2_66f5_4912_a354_4ee81cfd417e
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0deb6ea2_66f5_4912_a354_4ee81cfd417e> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "multiplayer"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fb4e733_db08_4fff_b1d2_78b7edfc66d0
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fb4e733_db08_4fff_b1d2_78b7edfc66d0> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Vituosity ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fb4e733_db08_4fff_b1d2_78b7edfc66d0> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2> ;
+                                                                                                              rdfs:label "dying zero time"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fe260cc_9ff5_44c8_a2f3_6eada7c518c6
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fe260cc_9ff5_44c8_a2f3_6eada7c518c6> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "You Rock"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_118d3b82_b8d9_4081_b95e_07b4d9eaa1e6
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_118d3b82_b8d9_4081_b95e_07b4d9eaa1e6> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8> ;
+                                                                                                              :lives_in <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_118d3b82_b8d9_4081_b95e_07b4d9eaa1e6> ;
+                                                                                                              rdfs:label "South America"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_125939ec_dd39_4d3d_b69d_9c84fd788f89
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_125939ec_dd39_4d3d_b69d_9c84fd788f89> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Game ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_125939ec_dd39_4d3d_b69d_9c84fd788f89> ;
+                                                                                                              rdfs:label "Need for Speed"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1298d860_6ff0_4c04_9ba9_34a0e9eb8791
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1298d860_6ff0_4c04_9ba9_34a0e9eb8791> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player ;
+                                                                                                              :plays_game <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1298d860_6ff0_4c04_9ba9_34a0e9eb8791> ;
+                                                                                                              rdfs:label "sadi_01"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13681e66_defc_4079_9b9f_6c08096a0175
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13681e66_defc_4079_9b9f_6c08096a0175> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13681e66_defc_4079_9b9f_6c08096a0175> ;
+                                                                                                              rdfs:label "jump"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13eeb169_5a60_4d86_a699_941c175761db
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13eeb169_5a60_4d86_a699_941c175761db> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player ;
+                                                                                                              :plays_game <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13eeb169_5a60_4d86_a699_941c175761db> ;
+                                                                                                              rdfs:label "aqib_01"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_18f2573e_e7ac_40c1_ad70_a147152b9bf0
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_18f2573e_e7ac_40c1_ad70_a147152b9bf0> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Playing_area ;
+                                                                                                              :has_playing_area <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_18f2573e_e7ac_40c1_ad70_a147152b9bf0> ;
+                                                                                                              rdfs:label "Paris"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1b037e3d_3062_447f_a0a5_5666a079bbb8
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1b037e3d_3062_447f_a0a5_5666a079bbb8> rdf:type owl:NamedIndividual ,
+                                                                                                                       :gaming_companies ;
+                                                                                                              :owns_game <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1b037e3d_3062_447f_a0a5_5666a079bbb8> ;
+                                                                                                              rdfs:label "Jon Doe"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1fc19d3d_db53_46d0_aa04_65c74045ef62
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1fc19d3d_db53_46d0_aa04_65c74045ef62> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_15756aa1_1619_4f9b_883f_8e33fb7ec005> ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ce550fb5_feb5_44fe_9fa5_622966cfa2bd> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13eeb169_5a60_4d86_a699_941c175761db> ;
+                                                                                                              rdfs:label "Hard"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_200176ba_cb0a_4c6c_8de5_e12310db2b54
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_200176ba_cb0a_4c6c_8de5_e12310db2b54> rdf:type owl:NamedIndividual ,
+                                                                                                                       :VR ;
+                                                                                                              rdfs:label "The Last City"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_20992887_dd58_4af2_874f_2185f88277f1
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_20992887_dd58_4af2_874f_2185f88277f1> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Luck ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_20992887_dd58_4af2_874f_2185f88277f1> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930> ;
+                                                                                                              rdfs:label "win lottery"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2525c32e_66b9_4fbc_a35f_b3e2a8b9e010
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2525c32e_66b9_4fbc_a35f_b3e2a8b9e010> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player ;
+                                                                                                              :plays_game <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2525c32e_66b9_4fbc_a35f_b3e2a8b9e010> ;
+                                                                                                              rdfs:label "maria_z"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_283d94ed_cd09_42be_8105_923399b1ba85
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_283d94ed_cd09_42be_8105_923399b1ba85> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Feature ;
+                                                                                                              :has_feature <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2a2fa1c3_5914_40f4_8391_46ad44aa6804> ;
+                                                                                                              rdfs:label "Equipable"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_29ea5464_66c9_45ba_8c2a_6100b4ba79c5
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_29ea5464_66c9_45ba_8c2a_6100b4ba79c5> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_29ea5464_66c9_45ba_8c2a_6100b4ba79c5> ;
+                                                                                                              rdfs:label "40.000"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2a2fa1c3_5914_40f4_8391_46ad44aa6804
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2a2fa1c3_5914_40f4_8391_46ad44aa6804> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Equipable"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2bedf517_9982_4e9c_9876_65dbe96db000
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2bedf517_9982_4e9c_9876_65dbe96db000> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "paragon"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2c303ccc_fae2_4d49_a349_564008eae867
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2c303ccc_fae2_4d49_a349_564008eae867> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Magical Staff"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2dc5b9c6_f3bf_4a32_93ec_ce5ad2f9afa3
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2dc5b9c6_f3bf_4a32_93ec_ce5ad2f9afa3> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "completion"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2ed6b976_c690_4ade_9ef6_85885faa069f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2ed6b976_c690_4ade_9ef6_85885faa069f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Person ;
+                                                                                                              rdfs:label "monster"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_325195a7_88d9_4b27_9ddf_074893b4174c
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_325195a7_88d9_4b27_9ddf_074893b4174c> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4> ;
+                                                                                                              rdfs:label "RunRun"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_353b7eca_a5f8_4628_9059_e745e9b7279f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_353b7eca_a5f8_4628_9059_e745e9b7279f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Session ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_353b7eca_a5f8_4628_9059_e745e9b7279f> ;
+                                                                                                              rdfs:label "round of counter strike"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a0fc647_465b_4176_aa4c_da5ca421055c
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a0fc647_465b_4176_aa4c_da5ca421055c> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a0fc647_465b_4176_aa4c_da5ca421055c> ;
+                                                                                                              rdfs:label "make decision for in-purchase"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a4f1b00_9902_42a0_892e_0d98dc40f755
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a4f1b00_9902_42a0_892e_0d98dc40f755> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Feature ;
+                                                                                                              :has_feature <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a4f1b00_9902_42a0_892e_0d98dc40f755> ;
+                                                                                                              rdfs:label "portable"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3fe03000_e4df_4436_958a_bf09a5e2a44c
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3fe03000_e4df_4436_958a_bf09a5e2a44c> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player ;
+                                                                                                              :plays_game <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3fe03000_e4df_4436_958a_bf09a5e2a44c> ;
+                                                                                                              rdfs:label "Agent27"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4013a8eb_a687_4327_a896_911dc07a9a96
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4013a8eb_a687_4327_a896_911dc07a9a96> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player ;
+                                                                                                              :plays_game <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4013a8eb_a687_4327_a896_911dc07a9a96> ;
+                                                                                                              rdfs:label "abdullah26"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_433303cc_d268_4817_98ce_251e41dbfc89
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_433303cc_d268_4817_98ce_251e41dbfc89> rdf:type owl:NamedIndividual ,
+                                                                                                                       :In-App_Purchase_Event ;
+                                                                                                              :purchase_game_offering <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_433303cc_d268_4817_98ce_251e41dbfc89> ;
+                                                                                                              rdfs:label "87 minutes"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_43be82ea_fea9_4b11_9d67_6517b7c95140
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_43be82ea_fea9_4b11_9d67_6517b7c95140> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "specialplaystyle"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_46cc4604_0954_416a_bed9_7af0f7524bb2
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_46cc4604_0954_416a_bed9_7af0f7524bb2> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Ferrari"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_49eae105_0578_4f5c_8c43_a8b9e76b375d
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_49eae105_0578_4f5c_8c43_a8b9e76b375d> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Damage­dealing"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4be6c3e1_f0d0_4a4f_b4fb_500332919af1
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4be6c3e1_f0d0_4a4f_b4fb_500332919af1> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Vituosity ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4be6c3e1_f0d0_4a4f_b4fb_500332919af1> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2> ;
+                                                                                                              rdfs:label "preventing opposing team from scoring"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "vituosity"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4dca5e9c_781c_4ab6_ac89_862f253aa203
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4dca5e9c_781c_4ab6_ac89_862f253aa203> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Sword of Steel"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4fc3833a_4b65_4ce4_8454_dcaad478507f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4fc3833a_4b65_4ce4_8454_dcaad478507f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Health Potion"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_517a18ec_6498_4255_93c5_b0fa9f493652
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_517a18ec_6498_4255_93c5_b0fa9f493652> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Magical Hat"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_52829178_de66_4024_b7b8_1fb35e52e561
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_52829178_de66_4024_b7b8_1fb35e52e561> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_52829178_de66_4024_b7b8_1fb35e52e561> ;
+                                                                                                              rdfs:label "24, 600"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_549a7490_23a1_4da9_bc34_540051ca135f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_549a7490_23a1_4da9_bc34_540051ca135f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Game ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_549a7490_23a1_4da9_bc34_540051ca135f> ;
+                                                                                                              rdfs:label "pong"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_56455cc7_e79f_4704_8ea2_d14c8a2d1f19
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_56455cc7_e79f_4704_8ea2_d14c8a2d1f19> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4> ;
+                                                                                                              rdfs:label "cs_italy"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_596c886b_5831_4341_8202_3f215d9f2fd9
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_596c886b_5831_4341_8202_3f215d9f2fd9> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8> ;
+                                                                                                              :lives_in <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_596c886b_5831_4341_8202_3f215d9f2fd9> ;
+                                                                                                              rdfs:label "India"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5c0df4db_216c_4ad8_879c_1c81530279b7
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5c0df4db_216c_4ad8_879c_1c81530279b7> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5c0df4db_216c_4ad8_879c_1c81530279b7> ;
+                                                                                                              rdfs:label "Save game"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5d7a83ad_f18c_4698_b509_71071a9f10b0
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5d7a83ad_f18c_4698_b509_71071a9f10b0> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player ;
+                                                                                                              :plays_game <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5d7a83ad_f18c_4698_b509_71071a9f10b0> ;
+                                                                                                              rdfs:label "Atif Aslam"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5f426fc2_620d_43d6_932a_478a01993ed2
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5f426fc2_620d_43d6_932a_478a01993ed2> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5f426fc2_620d_43d6_932a_478a01993ed2> ;
+                                                                                                              rdfs:label "throw"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6371bf19_b210_4708_9673_a16b1565f82c
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6371bf19_b210_4708_9673_a16b1565f82c> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Ferrari"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_63e1620c_b31e_4207_89da_0b65e32123cc
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_63e1620c_b31e_4207_89da_0b65e32123cc> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "loyalty"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_67862210_b7bf_4355_8699_7545535079e6
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_67862210_b7bf_4355_8699_7545535079e6> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4> ;
+                                                                                                              rdfs:label "de_dust"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_67dbe8e8_07c4_4441_89fd_aaac80add5fd
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_67dbe8e8_07c4_4441_89fd_aaac80add5fd> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Difficulty ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1fc19d3d_db53_46d0_aa04_65c74045ef62> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4> ;
+                                                                                                              rdfs:label "Hard"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a2b670b_5ebd_4db7_bd8e_d4e3b497490f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a2b670b_5ebd_4db7_bd8e_d4e3b497490f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Game ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a2b670b_5ebd_4db7_bd8e_d4e3b497490f> ;
+                                                                                                              rdfs:label "NHL12"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a7a4340_17b5_44eb_a325_892a1f1c2bb9
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a7a4340_17b5_44eb_a325_892a1f1c2bb9> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Person ;
+                                                                                                              rdfs:label "spaceship"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6e51f718_5649_4458_ad37_d8331a8b286d
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6e51f718_5649_4458_ad37_d8331a8b286d> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Feature ;
+                                                                                                              :has_feature <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_df8659c0_47a8_4800_abd3_0ce170028e0d> ;
+                                                                                                              rdfs:label "Magic"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6eda01d1_9313_4787_9606_24c367f8d502
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6eda01d1_9313_4787_9606_24c367f8d502> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Plateforms ;
+                                                                                                              :has_platform <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6eda01d1_9313_4787_9606_24c367f8d502> ;
+                                                                                                              rdfs:label "linux"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_71071603_573b_4dfd_8aca_da26d6847db9
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_71071603_573b_4dfd_8aca_da26d6847db9> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Plateforms ;
+                                                                                                              :has_platform <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_71071603_573b_4dfd_8aca_da26d6847db9> ;
+                                                                                                              rdfs:label "vr"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7be9cdaa_0291_4ef7_9d4c_49785c551a1c
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7be9cdaa_0291_4ef7_9d4c_49785c551a1c> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Special_play_style ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ddb579bf_d5dd_47d7_b91c_df7ac3b98e11> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7be9cdaa_0291_4ef7_9d4c_49785c551a1c> ;
+                                                                                                              rdfs:label "before time ends"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7bfd76e0_c5ad_445f_8cd8_2a08e36141bf
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7bfd76e0_c5ad_445f_8cd8_2a08e36141bf> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Genre ;
+                                                                                                              :has_game_genre <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7bfd76e0_c5ad_445f_8cd8_2a08e36141bf> ;
+                                                                                                              rdfs:label "Sports"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7cdc65c6_b79a_448e_bb9c_8faa5bfa0810
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7cdc65c6_b79a_448e_bb9c_8faa5bfa0810> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Mage’s Hat"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_82e596b0_0b07_4a62_b5bb_b3043e92d957
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_82e596b0_0b07_4a62_b5bb_b3043e92d957> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Genre ;
+                                                                                                              :has_game_genre <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_82e596b0_0b07_4a62_b5bb_b3043e92d957> ;
+                                                                                                              rdfs:label "Simulator"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_83b17ece_d789_4bef_9886_de6db68970ec
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_83b17ece_d789_4bef_9886_de6db68970ec> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Game ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_83b17ece_d789_4bef_9886_de6db68970ec> ;
+                                                                                                              rdfs:label "GTA"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_84f937a4_a8f4_4f02_89ec_d84a01f49d0b
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_84f937a4_a8f4_4f02_89ec_d84a01f49d0b> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Android ;
+                                                                                                              rdfs:label "pokemon"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "luck"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "difficulty"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_8bb8957f_daeb_46d3_8550_47cff639d893
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_8bb8957f_daeb_46d3_8550_47cff639d893> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Difficulty ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c2e6f045_cf53_4bf5_9ed2_d3246352567d> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4> ;
+                                                                                                              rdfs:label "Intermediate"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_90b976bb_e240_4826_b4a7_72afb58d3ba4
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_90b976bb_e240_4826_b4a7_72afb58d3ba4> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Health Potion"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_918c3e8e_8f2a_42c2_88f4_440d9c39b777
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_918c3e8e_8f2a_42c2_88f4_440d9c39b777> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              :has_item <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_918c3e8e_8f2a_42c2_88f4_440d9c39b777> ;
+                                                                                                              rdfs:label "Consumable"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_92cf12c3_8f73_4bc3_89ce_54e103acc28a
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_92cf12c3_8f73_4bc3_89ce_54e103acc28a> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Menu_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_32141b3c_2614_4244_b3ef_e3e25ccc1cba> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_92cf12c3_8f73_4bc3_89ce_54e103acc28a> ;
+                                                                                                              rdfs:label "50%"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_936a38f8_e2e9_4abc_a4e9_d77ceae9773f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_936a38f8_e2e9_4abc_a4e9_d77ceae9773f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Mac ;
+                                                                                                              rdfs:label "hades"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_950fe555_046b_414f_88c2_fe64c19529ae
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_950fe555_046b_414f_88c2_fe64c19529ae> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Playing_area ;
+                                                                                                              :has_playing_area <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ab860daa_f2c2_4fd0_883b_a2342ec60634> ;
+                                                                                                              rdfs:label "Pakistan"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_97a979a3_98ad_42e8_91ef_96efacd3de3f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_97a979a3_98ad_42e8_91ef_96efacd3de3f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Session ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_97a979a3_98ad_42e8_91ef_96efacd3de3f> ;
+                                                                                                              rdfs:label "half time of soccer"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_99d7b26c_3131_42cc_8302_4e6474a4beab
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_99d7b26c_3131_42cc_8302_4e6474a4beab> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              :has_item <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_99d7b26c_3131_42cc_8302_4e6474a4beab> ;
+                                                                                                              rdfs:label "Baseball bat"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9d478e3e_8bd3_4a4f_a630_c974800df199
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9d478e3e_8bd3_4a4f_a630_c974800df199> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Linux ;
+                                                                                                              rdfs:label "Age of Empires II"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9e37b57e_8245_4600_bfe0_805fea8fcddc
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9e37b57e_8245_4600_bfe0_805fea8fcddc> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Gain_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_87f5677c_ad41_41e2_ad56_0b9e94757d34> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9e37b57e_8245_4600_bfe0_805fea8fcddc> ;
+                                                                                                              rdfs:label "Dagger of Ice"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9effea30_dcd1_46f8_98f3_07a9946924b5
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9effea30_dcd1_46f8_98f3_07a9946924b5> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Dragon  Armor"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a1b6bd05_e071_4fea_89e0_744d26955443
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a1b6bd05_e071_4fea_89e0_744d26955443> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Minigame ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a1b6bd05_e071_4fea_89e0_744d26955443> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211> ;
+                                                                                                              rdfs:label "complete level 1"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a4da7ebb_5964_44bb_8bc2_5d7d60b0db8f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a4da7ebb_5964_44bb_8bc2_5d7d60b0db8f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Game ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a4da7ebb_5964_44bb_8bc2_5d7d60b0db8f> ;
+                                                                                                              rdfs:label "Space Invaders"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a5f6d7ab_7962_443c_8241_70a78f03712f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a5f6d7ab_7962_443c_8241_70a78f03712f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              :has_item <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a5f6d7ab_7962_443c_8241_70a78f03712f> ;
+                                                                                                              rdfs:label "Audi A8"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a6077372_bdf3_4865_853e_82d64660e514
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a6077372_bdf3_4865_853e_82d64660e514> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Veteran ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a6077372_bdf3_4865_853e_82d64660e514> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1> ;
+                                                                                                              rdfs:label "100 goals in ice hockey"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ab860daa_f2c2_4fd0_883b_a2342ec60634
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ab860daa_f2c2_4fd0_883b_a2342ec60634> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8> ;
+                                                                                                              :lives_in <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ab860daa_f2c2_4fd0_883b_a2342ec60634> ;
+                                                                                                              rdfs:label "Pakistan"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ad48d710_fc07_4873_ad4e_3d8fac95445b
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ad48d710_fc07_4873_ad4e_3d8fac95445b> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "curiosity"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ada6bfe0_2dc7_40e4_bbfe_61580c6e465b
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ada6bfe0_2dc7_40e4_bbfe_61580c6e465b> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Sword of Zelda"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b0090640_46f3_4426_890e_41f238539896
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b0090640_46f3_4426_890e_41f238539896> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8> ;
+                                                                                                              :purchase_game_offering <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eb861fe4_be4f_4c3c_925d_bf23f3f3b821> ;
+                                                                                                              rdfs:label "Brazil"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b4125017_8b79_4766_8484_3665ba1d438f
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b4125017_8b79_4766_8484_3665ba1d438f> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Equipable"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6803049_2ee8_48da_90e6_2a5fd45578ae
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6803049_2ee8_48da_90e6_2a5fd45578ae> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Genre ;
+                                                                                                              :has_game_genre <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6803049_2ee8_48da_90e6_2a5fd45578ae> ;
+                                                                                                              rdfs:label "Adventure"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6ba69d4_b2c8_42dc_b025_8eecb5e56032
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6ba69d4_b2c8_42dc_b025_8eecb5e56032> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Tutorial ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_c1f7362b_eadb_40fa_b10e_32b81db45d21> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6ba69d4_b2c8_42dc_b025_8eecb5e56032> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ed251731_1701_4d59_a7ea_19d1aa929c75> ;
+                                                                                                              rdfs:label "learn to play"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b8adda22_c914_4ddc_8662_03ece785b6d8
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b8adda22_c914_4ddc_8662_03ece785b6d8> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Event ;
+                                                                                                              rdfs:label "kill enemy"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b91b8910_619f_41bf_a45e_bfd3763494d0
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b91b8910_619f_41bf_a45e_bfd3763494d0> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "fandom"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_bdd84046_8716_49b9_b161_1d46709eedc1
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_bdd84046_8716_49b9_b161_1d46709eedc1> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Windows ;
+                                                                                                              rdfs:label "crush the castle"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_beeb1c12_d17d_4e02_866a_e3e13ba01f17
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_beeb1c12_d17d_4e02_866a_e3e13ba01f17> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Android ;
+                                                                                                              rdfs:label "minecraft"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c1d18352_6c32_488d_aeac_bc5f2a99dab7
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c1d18352_6c32_488d_aeac_bc5f2a99dab7> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Gain_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_87f5677c_ad41_41e2_ad56_0b9e94757d34> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ada6bfe0_2dc7_40e4_bbfe_61580c6e465b> ;
+                                                                                                              rdfs:label "Sword of Zelda"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c2e6f045_cf53_4bf5_9ed2_d3246352567d
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c2e6f045_cf53_4bf5_9ed2_d3246352567d> rdf:type owl:NamedIndividual ,
+                                                                                                                       <http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f> ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ce550fb5_feb5_44fe_9fa5_622966cfa2bd> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4013a8eb_a687_4327_a896_911dc07a9a96> ;
+                                                                                                              rdfs:label "Intermediate"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c3b08046_a95d_4746_9d31_31b585146d26
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c3b08046_a95d_4746_9d31_31b585146d26> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Game ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c3b08046_a95d_4746_9d31_31b585146d26> ;
+                                                                                                              rdfs:label "Pokemon"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c899bb14_fff5_4361_856c_def2b7508d9e
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c899bb14_fff5_4361_856c_def2b7508d9e> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Person ;
+                                                                                                              rdfs:label "car"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_cb30a452_91a0_4e24_9de9_04c239364bfd
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_cb30a452_91a0_4e24_9de9_04c239364bfd> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Difficulty ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a2feac9_3da3_4020_bd90_2abaca44bb06> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4> ;
+                                                                                                              rdfs:label "Easy"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_cbd8a300_2329_493e_ade0_fb0761f6da82
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_cbd8a300_2329_493e_ade0_fb0761f6da82> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Linux ;
+                                                                                                              rdfs:label "The Witcher 3"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ccbf3890_ad44_4bc4_bebc_d8a3d06d31f0
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ccbf3890_ad44_4bc4_bebc_d8a3d06d31f0> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "Unlock me"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d0219911_8069_4fd3_881a_eebb1538f166
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d0219911_8069_4fd3_881a_eebb1538f166> rdf:type owl:NamedIndividual ,
+                                                                                                                       :In-App_Purchase_Event ;
+                                                                                                              :purchase_game_offering <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d0219911_8069_4fd3_881a_eebb1538f166> ;
+                                                                                                              rdfs:label "2 weeks"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d178d9b8_0b77_4f3a_8535_856e196941cb
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d178d9b8_0b77_4f3a_8535_856e196941cb> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Feature ,
+                                                                                                                       :Item ;
+                                                                                                              :has_feature <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d178d9b8_0b77_4f3a_8535_856e196941cb> ;
+                                                                                                              rdfs:label "Magic Potion"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d17a894f_6613_4fb0_82d4_8f0647e1427b
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d17a894f_6613_4fb0_82d4_8f0647e1427b> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Lose_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f2b27d2e_d49d_4f6f_8cb1_8c70216f4c84> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d17a894f_6613_4fb0_82d4_8f0647e1427b> ;
+                                                                                                              rdfs:label "40 Times"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d26d18bd_b15b_4ccf_a4e3_54243639f79c
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d26d18bd_b15b_4ccf_a4e3_54243639f79c> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Genre ;
+                                                                                                              :has_game_genre <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d26d18bd_b15b_4ccf_a4e3_54243639f79c> ;
+                                                                                                              rdfs:label "Puzzle"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d5600e2d_347f_4e5c_800d_698b09b36de9
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d5600e2d_347f_4e5c_800d_698b09b36de9> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Luck ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d5600e2d_347f_4e5c_800d_698b09b36de9> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930> ;
+                                                                                                              rdfs:label "throwing yahtzee"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d7707f07_4c86_4eef_a1b6_52c344015ba4
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d7707f07_4c86_4eef_a1b6_52c344015ba4> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Windows ;
+                                                                                                              rdfs:label "simsville"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_da8fc289_5039_4cbf_acf9_806c63bae55a
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_da8fc289_5039_4cbf_acf9_806c63bae55a> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_da8fc289_5039_4cbf_acf9_806c63bae55a> ;
+                                                                                                              rdfs:label "0 Goal"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dc641a67_dd5f_4e06_947b_0dc64167297e
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dc641a67_dd5f_4e06_947b_0dc64167297e> rdf:type owl:NamedIndividual ,
+                                                                                                                       :gaming_companies ;
+                                                                                                              :owns_game <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dc641a67_dd5f_4e06_947b_0dc64167297e> ;
+                                                                                                              rdfs:label "Electronic Arts"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dd23976b_6da7_4abf_a0ba_2e0df2d60629
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dd23976b_6da7_4abf_a0ba_2e0df2d60629> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Cute Cakes"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_df8659c0_47a8_4800_abd3_0ce170028e0d
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_df8659c0_47a8_4800_abd3_0ce170028e0d> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Magic"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e35f6432_35c9_4d54_9ad0_9a9b181119c9
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e35f6432_35c9_4d54_9ad0_9a9b181119c9> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Session ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e35f6432_35c9_4d54_9ad0_9a9b181119c9> ;
+                                                                                                              rdfs:label "single round of chess game"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e3bd2929_150a_4f54_b9bb_643b750422e1
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e3bd2929_150a_4f54_b9bb_643b750422e1> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "collection"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5525f1f_3aef_4815_913a_8859ab732f27
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5525f1f_3aef_4815_913a_8859ab732f27> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Player_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5525f1f_3aef_4815_913a_8859ab732f27> ;
+                                                                                                              rdfs:label "Change equipment"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5a121ef_70f5_4423_b788_bf1cfbd25ef3
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5a121ef_70f5_4423_b788_bf1cfbd25ef3> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Person ;
+                                                                                                              rdfs:label "human"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e658a4fe_7cad_45a7_ac6e_9f9801688e7e
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e658a4fe_7cad_45a7_ac6e_9f9801688e7e> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Genre ;
+                                                                                                              :has_game_genre <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e658a4fe_7cad_45a7_ac6e_9f9801688e7e> ;
+                                                                                                              rdfs:label "RPG"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e851e7c0_e20e_405b_83d2_577185c49bff
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e851e7c0_e20e_405b_83d2_577185c49bff> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Plateforms ;
+                                                                                                              :has_platform <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e851e7c0_e20e_405b_83d2_577185c49bff> ;
+                                                                                                              rdfs:label "mac"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "minigame"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eb861fe4_be4f_4c3c_925d_bf23f3f3b821
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eb861fe4_be4f_4c3c_925d_bf23f3f3b821> rdf:type owl:NamedIndividual ,
+                                                                                                                       :In-App_Purchase_Event ;
+                                                                                                              :lives_in <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b0090640_46f3_4426_890e_41f238539896> ;
+                                                                                                              rdfs:label "1 hour"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ed251731_1701_4d59_a7ea_19d1aa929c75
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ed251731_1701_4d59_a7ea_19d1aa929c75> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Achievement ;
+                                                                                                              rdfs:label "tutorial"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_edbde812_032d_4c9a_9c4c_6a696bcedde8
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_edbde812_032d_4c9a_9c4c_6a696bcedde8> rdf:type owl:NamedIndividual ,
+                                                                                                                       :In-App_Purchase_Event ;
+                                                                                                              :purchase_game_offering <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_edbde812_032d_4c9a_9c4c_6a696bcedde8> ;
+                                                                                                              rdfs:label "Evening"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ee94da05_9863_42a4_b546_dbc41eda1f14
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ee94da05_9863_42a4_b546_dbc41eda1f14> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Session ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ee94da05_9863_42a4_b546_dbc41eda1f14> ;
+                                                                                                              rdfs:label "one race of formaula 1"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_efea76df_8142_4ce9_8f99_6bd14ee5ca50
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_efea76df_8142_4ce9_8f99_6bd14ee5ca50> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Menu_Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_32141b3c_2614_4244_b3ef_e3e25ccc1cba> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_efea76df_8142_4ce9_8f99_6bd14ee5ca50> ;
+                                                                                                              rdfs:label "50 000"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f11c2eba_8e5a_43b5_a65b_d5d78ea7cd37
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f11c2eba_8e5a_43b5_a65b_d5d78ea7cd37> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Consumable Items"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f1a6e152_680f_49f6_91b6_50fef4158421
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f1a6e152_680f_49f6_91b6_50fef4158421> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Minigame ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f1a6e152_680f_49f6_91b6_50fef4158421> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211> ;
+                                                                                                              rdfs:label "complete level 2"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f452e215_8ca9_4a1c_b32c_13f983e9bfec
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f452e215_8ca9_4a1c_b32c_13f983e9bfec> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Playing_area ;
+                                                                                                              :has_playing_area <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f452e215_8ca9_4a1c_b32c_13f983e9bfec> ;
+                                                                                                              rdfs:label "India"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f979d824_4c82_42dc_b30d_1e7dc5e38f6b
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f979d824_4c82_42dc_b30d_1e7dc5e38f6b> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Event ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f979d824_4c82_42dc_b30d_1e7dc5e38f6b> ;
+                                                                                                              rdfs:label "4 Times killed"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fa26a351_8bec_4e20_b4bb_e77498b3e281
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fa26a351_8bec_4e20_b4bb_e77498b3e281> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Game ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fa26a351_8bec_4e20_b4bb_e77498b3e281> ;
+                                                                                                              rdfs:label "Space Quest"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fb30cd3f_3eab_45fa_8d8f_5785917d8426
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fb30cd3f_3eab_45fa_8d8f_5785917d8426> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Veteran ;
+                                                                                                              <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fb30cd3f_3eab_45fa_8d8f_5785917d8426> ;
+                                                                                                              :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1> ;
+                                                                                                              rdfs:label "thousand hours of world of tanks"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fde5fff1_9824_42fa_b624_9b0740cce509
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fde5fff1_9824_42fa_b624_9b0740cce509> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Item ;
+                                                                                                              rdfs:label "Dagger of Ice"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fe0243e3_2f12_4670_9c8b_c442ea4208e9
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fe0243e3_2f12_4670_9c8b_c442ea4208e9> rdf:type owl:NamedIndividual ,
+                                                                                                                       :Mac ;
+                                                                                                              rdfs:label "civilization vi"@en .
+
+
+###  http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fe3f07a4_1be5_426f_a72f_9b05811531ef
+<http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fe3f07a4_1be5_426f_a72f_9b05811531ef> rdf:type owl:NamedIndividual ,
+                                                                                                                       :VR ;
+                                                                                                              rdfs:label "Until You Fall"@en .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#car
+:car rdf:type owl:NamedIndividual ,
+              :Character ;
+     :has_character :car .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#coins
+:coins rdf:type owl:NamedIndividual ,
+                :Collection ;
+       <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ea920f1b_4704_420d_b18f_338d5584ea97> :coins ;
+       :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e3bd2929_150a_4f54_b9bb_643b750422e1> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#complete_task_before_time_ends
+:complete_task_before_time_ends rdf:type owl:NamedIndividual ,
+                                         :Paragon ;
+                                <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f31793c9_a0c4_405f_9245_87682e47ee97> :complete_task_before_time_ends ;
+                                :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2bedf517_9982_4e9c_9876_65dbe96db000> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#experience_of_game
+:experience_of_game rdf:type owl:NamedIndividual ,
+                             :Veteran ;
+                    <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b> :experience_of_game ;
+                    :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#extra_coins
+:extra_coins rdf:type owl:NamedIndividual ,
+                      :Luck ;
+             <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039> :extra_coins ;
+             :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gathering_of_player
+:gathering_of_player rdf:type owl:NamedIndividual ,
+                              :Fandom ;
+                     :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b91b8910_619f_41bf_a45e_bfd3763494d0> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#human
+:human rdf:type owl:NamedIndividual ,
+                :Character ;
+       :has_character <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5a121ef_70f5_4423_b788_bf1cfbd25ef3> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#jump_without_dying
+:jump_without_dying rdf:type owl:NamedIndividual ,
+                             :Curiosity ;
+                    <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_17289fbb_7d91_440e_8ed2_273b2a5a37f4> :jump_without_dying ;
+                    :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ad48d710_fc07_4873_ad4e_3d8fac95445b> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#learn
+:learn rdf:type owl:NamedIndividual ,
+                :Tutorial ;
+       <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_c1f7362b_eadb_40fa_b10e_32b81db45d21> <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6ba69d4_b2c8_42dc_b025_8eecb5e56032> ;
+       :has_achievement :learn .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#mini_tasks
+:mini_tasks rdf:type owl:NamedIndividual ,
+                     :Minigame ;
+            <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e> :mini_tasks ;
+            :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_items
+:purchase_items rdf:type owl:NamedIndividual ,
+                         :Loyalty ;
+                <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_477f4d0c_fb71_454c_8075_31512a1d1f19> :purchase_items ;
+                :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_63e1620c_b31e_4207_89da_0b65e32123cc> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#save_princess
+:save_princess rdf:type owl:NamedIndividual ,
+                        :Completion ;
+               <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_30cb11ab_38b7_4bb7_8e2c_33b5a0ce135e> :save_princess ;
+               :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2dc5b9c6_f3bf_4a32_93ec_ce5ad2f9afa3> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#spaceship
+:spaceship rdf:type owl:NamedIndividual ,
+                    :Character ;
+           :has_character <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a7a4340_17b5_44eb_a325_892a1f1c2bb9> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#teams
+:teams rdf:type owl:NamedIndividual ,
+                :Multiplayer ;
+       <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_aa560e34_d0c6_4c38_8d53_ee1c99a4d909> :teams ;
+       :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0deb6ea2_66f5_4912_a354_4ee81cfd417e> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#unique_skills
+:unique_skills rdf:type owl:NamedIndividual ,
+                        :Vituosity ;
+               <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b> :unique_skills ;
+               :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#without_violance
+:without_violance rdf:type owl:NamedIndividual ,
+                           :Special_play_style ;
+                  <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ddb579bf_d5dd_47d7_b91c_df7ac3b98e11> :without_violance ;
+                  :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ed251731_1701_4d59_a7ea_19d1aa929c75> .
+
+
+###  http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#player's_suit
+<http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#player's_suit> rdf:type owl:NamedIndividual ,
+                                                                                             :Collection ;
+                                                                                    <http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ea920f1b_4704_420d_b18f_338d5584ea97> <http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#player's_suit> ;
+                                                                                    :has_achievement <http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e3bd2929_150a_4f54_b9bb_643b750422e1> .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

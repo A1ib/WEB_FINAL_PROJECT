@@ -1,0 +1,3151 @@
+[ {
+  "@id" : "http://purl.obolibrary.org/obo/X_47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/X_47"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/Y_58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/Y_58"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/Z_60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/Z_60"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_15756aa1_1619_4f9b_883f_8e33fb7ec005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The HardMode difficulty achievement describes succeeding in a game on a hard level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hard Mode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb"
+  }, {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_33c74812_4aa9_4ea7_b05c_2b211e54a66e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "GameProduct is anything that is for sale inside a game. These can be either normal game items purchased with in-game currency or with real world money."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gameproducts"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Map defines the favriot map of the player."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "map"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The EasyMode difficulty achievement describes succeeding in a game on a easy level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EasyMode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Location defines the location in map where the players die the most."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Intermediate Mode difficulty achievement describes succeeding in a game on a Intermediate level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Intermediate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The players who have done the most in­app purchases lives in."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lives In"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#In-App_Purchase_Event"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_00d1664c_3e45_44e0_b538_e7d9019581ae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_platform" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_00d1664c_3e45_44e0_b538_e7d9019581ae"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "windows"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0476ba81_62e7_454c_98ba_b85cf8e30b6a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cookie"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a2feac9_3da3_4020_bd90_2abaca44bb06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_345e71cf_8685_45f6_9b40_4106c715e966" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gathering_of_player"
+  } ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c2e6f045_cf53_4bf5_9ed2_d3246352567d"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Easy"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a42d63e_db01_4fac_a380_62745e6fd2ba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Potion of Mana"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a631160_c188_4d51_8759_50feb9b774f5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_platform" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a631160_c188_4d51_8759_50feb9b774f5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "android"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "veteran"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0deb6ea2_66f5_4912_a354_4ee81cfd417e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "multiplayer"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fb4e733_db08_4fff_b1d2_78b7edfc66d0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fb4e733_db08_4fff_b1d2_78b7edfc66d0"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Vituosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dying zero time"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fe260cc_9ff5_44c8_a2f3_6eada7c518c6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "You Rock"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_118d3b82_b8d9_4081_b95e_07b4d9eaa1e6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#lives_in" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_118d3b82_b8d9_4081_b95e_07b4d9eaa1e6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South America"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_125939ec_dd39_4d3d_b69d_9c84fd788f89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_125939ec_dd39_4d3d_b69d_9c84fd788f89"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Need for Speed"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1298d860_6ff0_4c04_9ba9_34a0e9eb8791",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#plays_game" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1298d860_6ff0_4c04_9ba9_34a0e9eb8791"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sadi_01"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13681e66_defc_4079_9b9f_6c08096a0175",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13681e66_defc_4079_9b9f_6c08096a0175"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "jump"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13eeb169_5a60_4d86_a699_941c175761db",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#plays_game" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13eeb169_5a60_4d86_a699_941c175761db"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "aqib_01"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_18f2573e_e7ac_40c1_ad70_a147152b9bf0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_playing_area" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_18f2573e_e7ac_40c1_ad70_a147152b9bf0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Playing_area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Paris"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1b037e3d_3062_447f_a0a5_5666a079bbb8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_game" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1b037e3d_3062_447f_a0a5_5666a079bbb8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gaming_companies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Jon Doe"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1fc19d3d_db53_46d0_aa04_65c74045ef62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ce550fb5_feb5_44fe_9fa5_622966cfa2bd" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13eeb169_5a60_4d86_a699_941c175761db"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_15756aa1_1619_4f9b_883f_8e33fb7ec005"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hard"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_200176ba_cb0a_4c6c_8de5_e12310db2b54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#VR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Last City"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_20992887_dd58_4af2_874f_2185f88277f1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_20992887_dd58_4af2_874f_2185f88277f1"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Luck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "win lottery"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2525c32e_66b9_4fbc_a35f_b3e2a8b9e010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#plays_game" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2525c32e_66b9_4fbc_a35f_b3e2a8b9e010"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "maria_z"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_283d94ed_cd09_42be_8105_923399b1ba85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_feature" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2a2fa1c3_5914_40f4_8391_46ad44aa6804"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Equipable"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_29ea5464_66c9_45ba_8c2a_6100b4ba79c5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_29ea5464_66c9_45ba_8c2a_6100b4ba79c5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "40.000"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2a2fa1c3_5914_40f4_8391_46ad44aa6804",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Equipable"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2bedf517_9982_4e9c_9876_65dbe96db000",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "paragon"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2c303ccc_fae2_4d49_a349_564008eae867",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Magical Staff"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2dc5b9c6_f3bf_4a32_93ec_ce5ad2f9afa3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "completion"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2ed6b976_c690_4ade_9ef6_85885faa069f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "monster"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_325195a7_88d9_4b27_9ddf_074893b4174c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RunRun"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_353b7eca_a5f8_4628_9059_e745e9b7279f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_353b7eca_a5f8_4628_9059_e745e9b7279f"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "round of counter strike"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a0fc647_465b_4176_aa4c_da5ca421055c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a0fc647_465b_4176_aa4c_da5ca421055c"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "make decision for in-purchase"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a4f1b00_9902_42a0_892e_0d98dc40f755",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_feature" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a4f1b00_9902_42a0_892e_0d98dc40f755"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "portable"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3fe03000_e4df_4436_958a_bf09a5e2a44c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#plays_game" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3fe03000_e4df_4436_958a_bf09a5e2a44c"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Agent27"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4013a8eb_a687_4327_a896_911dc07a9a96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#plays_game" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4013a8eb_a687_4327_a896_911dc07a9a96"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "abdullah26"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_433303cc_d268_4817_98ce_251e41dbfc89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_game_offering" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_433303cc_d268_4817_98ce_251e41dbfc89"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#In-App_Purchase_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "87 minutes"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_43be82ea_fea9_4b11_9d67_6517b7c95140",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "specialplaystyle"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_46cc4604_0954_416a_bed9_7af0f7524bb2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ferrari"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_49eae105_0578_4f5c_8c43_a8b9e76b375d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Damage­dealing"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4be6c3e1_f0d0_4a4f_b4fb_500332919af1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4be6c3e1_f0d0_4a4f_b4fb_500332919af1"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Vituosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "preventing opposing team from scoring"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vituosity"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4dca5e9c_781c_4ab6_ac89_862f253aa203",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sword of Steel"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4fc3833a_4b65_4ce4_8454_dcaad478507f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Health Potion"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_517a18ec_6498_4255_93c5_b0fa9f493652",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Magical Hat"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_52829178_de66_4024_b7b8_1fb35e52e561",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_52829178_de66_4024_b7b8_1fb35e52e561"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "24, 600"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_549a7490_23a1_4da9_bc34_540051ca135f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_549a7490_23a1_4da9_bc34_540051ca135f"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pong"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_56455cc7_e79f_4704_8ea2_d14c8a2d1f19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cs_italy"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_596c886b_5831_4341_8202_3f215d9f2fd9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#lives_in" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_596c886b_5831_4341_8202_3f215d9f2fd9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "India"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5c0df4db_216c_4ad8_879c_1c81530279b7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5c0df4db_216c_4ad8_879c_1c81530279b7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Save game"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5d7a83ad_f18c_4698_b509_71071a9f10b0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#plays_game" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5d7a83ad_f18c_4698_b509_71071a9f10b0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Atif Aslam"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5f426fc2_620d_43d6_932a_478a01993ed2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5f426fc2_620d_43d6_932a_478a01993ed2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "throw"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6371bf19_b210_4708_9673_a16b1565f82c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ferrari"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_63e1620c_b31e_4207_89da_0b65e32123cc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "loyalty"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_67862210_b7bf_4355_8699_7545535079e6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "de_dust"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_67dbe8e8_07c4_4441_89fd_aaac80add5fd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1fc19d3d_db53_46d0_aa04_65c74045ef62"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hard"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a2b670b_5ebd_4db7_bd8e_d4e3b497490f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a2b670b_5ebd_4db7_bd8e_d4e3b497490f"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NHL12"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a7a4340_17b5_44eb_a325_892a1f1c2bb9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "spaceship"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6e51f718_5649_4458_ad37_d8331a8b286d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_feature" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_df8659c0_47a8_4800_abd3_0ce170028e0d"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Feature"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Magic"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6eda01d1_9313_4787_9606_24c367f8d502",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_platform" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6eda01d1_9313_4787_9606_24c367f8d502"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "linux"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_71071603_573b_4dfd_8aca_da26d6847db9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_platform" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_71071603_573b_4dfd_8aca_da26d6847db9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vr"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7be9cdaa_0291_4ef7_9d4c_49785c551a1c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ddb579bf_d5dd_47d7_b91c_df7ac3b98e11" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7be9cdaa_0291_4ef7_9d4c_49785c551a1c"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Special_play_style"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "before time ends"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7bfd76e0_c5ad_445f_8cd8_2a08e36141bf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_game_genre" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7bfd76e0_c5ad_445f_8cd8_2a08e36141bf"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sports"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7cdc65c6_b79a_448e_bb9c_8faa5bfa0810",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mage’s Hat"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_82e596b0_0b07_4a62_b5bb_b3043e92d957",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_game_genre" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_82e596b0_0b07_4a62_b5bb_b3043e92d957"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Simulator"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_83b17ece_d789_4bef_9886_de6db68970ec",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_83b17ece_d789_4bef_9886_de6db68970ec"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "GTA"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_84f937a4_a8f4_4f02_89ec_d84a01f49d0b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Android"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "pokemon"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "luck"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "difficulty"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_8bb8957f_daeb_46d3_8550_47cff639d893",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c2e6f045_cf53_4bf5_9ed2_d3246352567d"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Intermediate"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_90b976bb_e240_4826_b4a7_72afb58d3ba4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Health Potion"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_918c3e8e_8f2a_42c2_88f4_440d9c39b777",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_item" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_918c3e8e_8f2a_42c2_88f4_440d9c39b777"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Consumable"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_92cf12c3_8f73_4bc3_89ce_54e103acc28a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_32141b3c_2614_4244_b3ef_e3e25ccc1cba" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_92cf12c3_8f73_4bc3_89ce_54e103acc28a"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Menu_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "50%"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_936a38f8_e2e9_4abc_a4e9_d77ceae9773f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Mac"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hades"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_950fe555_046b_414f_88c2_fe64c19529ae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_playing_area" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ab860daa_f2c2_4fd0_883b_a2342ec60634"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Playing_area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pakistan"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_97a979a3_98ad_42e8_91ef_96efacd3de3f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_97a979a3_98ad_42e8_91ef_96efacd3de3f"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "half time of soccer"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_99d7b26c_3131_42cc_8302_4e6474a4beab",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_item" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_99d7b26c_3131_42cc_8302_4e6474a4beab"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Baseball bat"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9d478e3e_8bd3_4a4f_a630_c974800df199",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Linux"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Age of Empires II"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9e37b57e_8245_4600_bfe0_805fea8fcddc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_87f5677c_ad41_41e2_ad56_0b9e94757d34" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9e37b57e_8245_4600_bfe0_805fea8fcddc"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Gain_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dagger of Ice"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9effea30_dcd1_46f8_98f3_07a9946924b5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dragon  Armor"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a1b6bd05_e071_4fea_89e0_744d26955443",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a1b6bd05_e071_4fea_89e0_744d26955443"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Minigame"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "complete level 1"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a4da7ebb_5964_44bb_8bc2_5d7d60b0db8f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a4da7ebb_5964_44bb_8bc2_5d7d60b0db8f"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Space Invaders"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a5f6d7ab_7962_443c_8241_70a78f03712f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_item" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a5f6d7ab_7962_443c_8241_70a78f03712f"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Audi A8"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a6077372_bdf3_4865_853e_82d64660e514",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a6077372_bdf3_4865_853e_82d64660e514"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Veteran"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "100 goals in ice hockey"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ab860daa_f2c2_4fd0_883b_a2342ec60634",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#lives_in" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ab860daa_f2c2_4fd0_883b_a2342ec60634"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pakistan"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ad48d710_fc07_4873_ad4e_3d8fac95445b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "curiosity"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ada6bfe0_2dc7_40e4_bbfe_61580c6e465b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sword of Zelda"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b0090640_46f3_4426_890e_41f238539896",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_game_offering" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eb861fe4_be4f_4c3c_925d_bf23f3f3b821"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Brazil"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b4125017_8b79_4766_8484_3665ba1d438f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Equipable"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6803049_2ee8_48da_90e6_2a5fd45578ae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_game_genre" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6803049_2ee8_48da_90e6_2a5fd45578ae"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Adventure"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6ba69d4_b2c8_42dc_b025_8eecb5e56032",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_c1f7362b_eadb_40fa_b10e_32b81db45d21" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6ba69d4_b2c8_42dc_b025_8eecb5e56032"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ed251731_1701_4d59_a7ea_19d1aa929c75"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Tutorial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "learn to play"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b8adda22_c914_4ddc_8662_03ece785b6d8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "kill enemy"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b91b8910_619f_41bf_a45e_bfd3763494d0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fandom"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_bdd84046_8716_49b9_b161_1d46709eedc1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Windows"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "crush the castle"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_beeb1c12_d17d_4e02_866a_e3e13ba01f17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Android"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "minecraft"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c1d18352_6c32_488d_aeac_bc5f2a99dab7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_87f5677c_ad41_41e2_ad56_0b9e94757d34" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ada6bfe0_2dc7_40e4_bbfe_61580c6e465b"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Gain_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sword of Zelda"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c2e6f045_cf53_4bf5_9ed2_d3246352567d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ce550fb5_feb5_44fe_9fa5_622966cfa2bd" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4013a8eb_a687_4327_a896_911dc07a9a96"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Intermediate"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c3b08046_a95d_4746_9d31_31b585146d26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c3b08046_a95d_4746_9d31_31b585146d26"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pokemon"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c899bb14_fff5_4361_856c_def2b7508d9e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "car"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_cb30a452_91a0_4e24_9de9_04c239364bfd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a2feac9_3da3_4020_bd90_2abaca44bb06"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Easy"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_cbd8a300_2329_493e_ade0_fb0761f6da82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Linux"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Witcher 3"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ccbf3890_ad44_4bc4_bebc_d8a3d06d31f0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Unlock me"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d0219911_8069_4fd3_881a_eebb1538f166",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_game_offering" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d0219911_8069_4fd3_881a_eebb1538f166"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#In-App_Purchase_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "2 weeks"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d178d9b8_0b77_4f3a_8535_856e196941cb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_feature" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d178d9b8_0b77_4f3a_8535_856e196941cb"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Feature"
+  }, {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Magic Potion"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d17a894f_6613_4fb0_82d4_8f0647e1427b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f2b27d2e_d49d_4f6f_8cb1_8c70216f4c84" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d17a894f_6613_4fb0_82d4_8f0647e1427b"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Lose_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "40 Times"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d26d18bd_b15b_4ccf_a4e3_54243639f79c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_game_genre" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d26d18bd_b15b_4ccf_a4e3_54243639f79c"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Puzzle"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d5600e2d_347f_4e5c_800d_698b09b36de9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d5600e2d_347f_4e5c_800d_698b09b36de9"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Luck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "throwing yahtzee"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d7707f07_4c86_4eef_a1b6_52c344015ba4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Windows"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "simsville"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_da8fc289_5039_4cbf_acf9_806c63bae55a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_da8fc289_5039_4cbf_acf9_806c63bae55a"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "0 Goal"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dc641a67_dd5f_4e06_947b_0dc64167297e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_game" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dc641a67_dd5f_4e06_947b_0dc64167297e"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gaming_companies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Electronic Arts"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dd23976b_6da7_4abf_a0ba_2e0df2d60629",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cute Cakes"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_df8659c0_47a8_4800_abd3_0ce170028e0d",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Magic"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e35f6432_35c9_4d54_9ad0_9a9b181119c9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e35f6432_35c9_4d54_9ad0_9a9b181119c9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "single round of chess game"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e3bd2929_150a_4f54_b9bb_643b750422e1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "collection"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5525f1f_3aef_4815_913a_8859ab732f27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5525f1f_3aef_4815_913a_8859ab732f27"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Change equipment"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5a121ef_70f5_4423_b788_bf1cfbd25ef3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "human"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e658a4fe_7cad_45a7_ac6e_9f9801688e7e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_game_genre" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e658a4fe_7cad_45a7_ac6e_9f9801688e7e"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Genre"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "RPG"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e851e7c0_e20e_405b_83d2_577185c49bff",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_platform" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e851e7c0_e20e_405b_83d2_577185c49bff"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "mac"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "minigame"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eb861fe4_be4f_4c3c_925d_bf23f3f3b821",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#lives_in" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b0090640_46f3_4426_890e_41f238539896"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#In-App_Purchase_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "1 hour"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ed251731_1701_4d59_a7ea_19d1aa929c75",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "tutorial"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_edbde812_032d_4c9a_9c4c_6a696bcedde8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_game_offering" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_edbde812_032d_4c9a_9c4c_6a696bcedde8"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#In-App_Purchase_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Evening"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ee94da05_9863_42a4_b546_dbc41eda1f14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ee94da05_9863_42a4_b546_dbc41eda1f14"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "one race of formaula 1"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_efea76df_8142_4ce9_8f99_6bd14ee5ca50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_32141b3c_2614_4244_b3ef_e3e25ccc1cba" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_efea76df_8142_4ce9_8f99_6bd14ee5ca50"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Menu_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "50 000"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f11c2eba_8e5a_43b5_a65b_d5d78ea7cd37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Consumable Items"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f1a6e152_680f_49f6_91b6_50fef4158421",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f1a6e152_680f_49f6_91b6_50fef4158421"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Minigame"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "complete level 2"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f452e215_8ca9_4a1c_b32c_13f983e9bfec",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_playing_area" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f452e215_8ca9_4a1c_b32c_13f983e9bfec"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Playing_area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "India"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f979d824_4c82_42dc_b30d_1e7dc5e38f6b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f979d824_4c82_42dc_b30d_1e7dc5e38f6b"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "4 Times killed"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fa26a351_8bec_4e20_b4bb_e77498b3e281",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fa26a351_8bec_4e20_b4bb_e77498b3e281"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Space Quest"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fb30cd3f_3eab_45fa_8d8f_5785917d8426",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fb30cd3f_3eab_45fa_8d8f_5785917d8426"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Veteran"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "thousand hours of world of tanks"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fde5fff1_9824_42fa_b624_9b0740cce509",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dagger of Ice"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fe0243e3_2f12_4670_9c8b_c442ea4208e9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Mac"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "civilization vi"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fe3f07a4_1be5_426f_a72f_9b05811531ef",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#VR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Until You Fall"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0a5875a2_9533_45c1_870a_5b02b28f51e1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is difficulty easy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_17289fbb_7d91_440e_8ed2_273b2a5a37f4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_curiosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Curiosity"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_vituosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Vituosity"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_30cb11ab_38b7_4bb7_8e2c_33b5a0ce135e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_completion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Completion"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_32141b3c_2614_4244_b3ef_e3e25ccc1cba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_menu_event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Menu_Event"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_345e71cf_8685_45f6_9b40_4106c715e966",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_fandom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Fandom"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_477f4d0c_fb71_454c_8075_31512a1d1f19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_loyalty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Loyalty"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_4b9ae9ec_d8a2_4b94_8b5d_2bb23dd77259",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_game_event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game_Event"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_minigame"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Minigame"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_player_event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_87f5677c_ad41_41e2_ad56_0b9e94757d34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_gain_event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Gain_Event"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_a34b2f8d_ad19_49b2_a9f7_950a713c91e9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is difficulty hard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_15756aa1_1619_4f9b_883f_8e33fb7ec005"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_aa560e34_d0c6_4c38_8d53_ee1c99a4d909",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_multiplayer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Multiplayer"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_veteran"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Veteran"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_c1f7362b_eadb_40fa_b10e_32b81db45d21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_tutorial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Tutorial"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ce550fb5_feb5_44fe_9fa5_622966cfa2bd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_difficulty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_map"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gaming_companies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_difficulty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ddb579bf_d5dd_47d7_b91c_df7ac3b98e11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_special_play_style"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Special_play_style"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ea920f1b_4704_420d_b18f_338d5584ea97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_collection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Collection"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ed48ff91_19a6_4d40_9cbf_420616615d35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is difficulty intermediate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f2b27d2e_d49d_4f6f_8cb1_8c70216f4c84",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_loss_event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Lose_Event"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f31793c9_a0c4_405f_9245_87682e47ee97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_paragon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Paragon"
+  } ]
+}, {
+  "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has_luck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Luck"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Achievement is a reward gained in a game due to some event accomplished in the game. Achievements are commonly used in game industry to reward players for having accomplished tasks in the game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Android",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "What are the best video games for android-based users.It defines all the games that can run on android operating system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Android"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Linux"
+  }, {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Mac"
+  }, {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#VR"
+  }, {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Windows"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Character is any actor that can exists in a game. A character  can be a human-like creature as seen traditionally in video games. However, a character could also be a car, a paddle in game of Pong or spaceship of a space shooter game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Collection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Collection type of achievement is typically rewarded from collecting an amount of certain items in a game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Collection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Completion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Completion type of achievement is usually rewarded from successfully completing a certain goal or subgoal in a game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Completion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Curiosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Curiosity describes funny random things that can happen or be found in the game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Curiosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The difficulty achievement describes succeeding in a game on a difficulty level. An example could be completing the “Doom” game on Nightmare difficulty level."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Difficulty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Event class describes an event that happens during the gameplay at a certain moment in time. This can be a player gaining an achievement, killing an enemy or making an in-app purchase."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Fandom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fandom achievement is related to doing some true fan activities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fandom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Feature describes an ability or characteristic. For example, a sword could have “damage dealing” ability and a bottle of water could be “potable”."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Feature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Gain_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The GainEvent describes an event that is related to character/player gaining something in a game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gain_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game_Event"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Lose_Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Game class describes a game product that can be played by a player."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Game_Event describes an event that takes place in a game without straight player interaction. GameEvents are often very specific for each game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Game_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Genre class describes the genre a game belongs to. All of the games have at least one genre. Examples of this are RPG, Simulator and Adventure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#In-App_Purchase_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "InAppPurchaseEvent describes an event that is related to making a purchase with real money inside a game. This is a subclass of InstantaneousEvent because it happens at certain moment in time."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "In-App_Purchase_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Item portrays any item that exists in a game. The item can either be just visual part of the game or a concrete usable item."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Item"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Leaderboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Leaderboard class describes a ranking system of the players. There can be multiple rankings in a game, for example, the kill-count ranking of Modern Warfare or the best time listing of Formula 1 game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Leaderboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Linux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "What are the best video games for linux based users.It defines all the games that can run on linux based operating system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Linux"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Mac"
+  }, {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#VR"
+  }, {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Windows"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Lose_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "LoseEvent describes an event that is related to character/player losing something in a game. This is a subclass of GameEvent as gaining something is related to a specific game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lose_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game_Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Loyalty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Loyalty achievement is used to give recognition to loyal players."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Loyalty"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Luck",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Lucky describes an achievement that is awarded to the player in a lucky situation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Luck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Mac",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "What are the best video games for mac based users.It defines all the games that can run on mac based operating system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mac"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#VR"
+  }, {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Windows"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Menu_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Menu_Event describes an event that is related to interacting with the ingame menu."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Menu_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Minigame",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Minigame achievement describes success in mini-games that have been included in a certain game but are not vital for completing the game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Minigame"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Multiplayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Multiplayer achievement describes anything that can be awarded to one or multiple players due to their gameplay in multiplayer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Multiplayer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Paragon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Paragon is a rare achievement that is given only to limited number of players."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Paragon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Person describes the entity playing the game. This can be either a human or a computer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Video Games are classified by platforms where they can run and played by player."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Platform"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Player describes the entity playing the game. This can be either a human or a computer. Player class is used to keep a profile of a certain playing entity and to connect all the games, achievements and characters he/she has. The Player is a subclass of Person as it contains all relative information of a certain person."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "PlayerEvent describes a Event that is caused by the player."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Player_Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Playing_area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "PlayingArea is the description of a place where the gameplay takes place. All of the games have some kind of area where they are played in."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Playing_Area"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Session class describes a session of gameplay."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Special_play_style",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "SpecialPlayStyle achievement is awarded to players after playing a game in special fashion. Often this is something harder than the regular play and requires more player experience to excel in it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Special_play_style"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Tutorial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tutorial achievement is  awarded to a player for trying out various features of the game. This is often related to learning how to play the game, how the controls work and how the game logic works."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tutorial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#VR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "What are the best video games for users who uses virtual reality .It defines all the games that can run on HMDs (Head Mounted Displays) system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Windows"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Veteran",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Veteran achievement is an award that is given for accumulating a lot of play hours or game actions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Veteran"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Vituosity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Virtuosity describes an achievement that is awarded for playing masterfully in the game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Vituosity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Windows",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "What are the best video games for windows based users.It defines all the games that can run on windows based operating system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Windows"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#car",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_character" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#car"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#coins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ea920f1b_4704_420d_b18f_338d5584ea97" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#coins"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e3bd2929_150a_4f54_b9bb_643b750422e1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Collection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#complete_task_before_time_ends",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f31793c9_a0c4_405f_9245_87682e47ee97" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#complete_task_before_time_ends"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2bedf517_9982_4e9c_9876_65dbe96db000"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Paragon"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gaming_companies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#end_Time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#event_Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#event_Time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#experience_of_game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#experience_of_game"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Veteran"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#extra_coins",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#extra_coins"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Luck"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gaming_companies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Gaming Companies are the companies that developed video games for users."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gaming_Companies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gathering_of_player",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b91b8910_619f_41bf_a45e_bfd3763494d0"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Fandom"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_achievement_in_game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_character_in_game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_feature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Feature"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_game_genre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Genre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_item",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_item_in_game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_leaderboard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Leaderboard"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_leaderboard_in_game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_platform",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_playing_area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Playing_area"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#human",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_character" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5a121ef_70f5_4423_b788_bf1cfbd25ef3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#involves_achievement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_achieved_in_session"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#involves_character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_character_in_session"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#involves_player",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_player_in_session"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_achieved_in_session",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_achievement_in_game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_character_in_game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_character_in_session",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_even_triggered_by_character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_associated_to_player",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_in_game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_in_session",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_related_to_item",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_friend_with_player",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is friend with player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#knows"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_item_in_game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_leaderboard_in_game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Leaderboard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_player_in_session",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_session_in_game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#jump_without_dying",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_17289fbb_7d91_440e_8ed2_273b2a5a37f4" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#jump_without_dying"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ad48d710_fc07_4873_ad4e_3d8fac95445b"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Curiosity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#knows",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#learn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_c1f7362b_eadb_40fa_b10e_32b81db45d21" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6ba69d4_b2c8_42dc_b025_8eecb5e56032"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#learn"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Tutorial"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#lives_in",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#mini_tasks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#mini_tasks"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Minigame"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_achievement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gaming_companies"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_item",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#player's_suit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ea920f1b_4704_420d_b18f_338d5584ea97" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#player's_suit"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e3bd2929_150a_4f54_b9bb_643b750422e1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Collection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#plays_game",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_game_offering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#In-App_Purchase_Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_items",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_477f4d0c_fb71_454c_8075_31512a1d1f19" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_items"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_63e1620c_b31e_4207_89da_0b65e32123cc"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Loyalty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#release_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#save_princess",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_30cb11ab_38b7_4bb7_8e2c_33b5a0ce135e" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#save_princess"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2dc5b9c6_f3bf_4a32_93ec_ce5ad2f9afa3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Completion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#spaceship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_character" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a7a4340_17b5_44eb_a325_892a1f1c2bb9"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#start_Time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#teams",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_aa560e34_d0c6_4c38_8d53_ee1c99a4d909" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#teams"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0deb6ea2_66f5_4912_a354_4ee81cfd417e"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Multiplayer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#unique_skills",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#unique_skills"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Vituosity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#unlocks_achievement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#username",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#without_violance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ddb579bf_d5dd_47d7_b91c_df7ac3b98e11" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#without_violance"
+  } ],
+  "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement" : [ {
+    "@id" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ed251731_1701_4d59_a7ea_19d1aa929c75"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Special_play_style"
+  } ]
+} ]

@@ -1,0 +1,3207 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2", "http://www.codeder.org/ontologies/VideoGameOntology" ],
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "23",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "98",
+    "type" : "owl:Class"
+  }, {
+    "id" : "102",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Session",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Session",
+      "en" : "Session"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ee94da05_9863_42a4_b546_dbc41eda1f14",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_ee94da05_9863_42a4_b546_dbc41eda1f14",
+        "en" : "one race of formaula 1"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_97a979a3_98ad_42e8_91ef_96efacd3de3f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_97a979a3_98ad_42e8_91ef_96efacd3de3f",
+        "en" : "half time of soccer"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_353b7eca_a5f8_4628_9059_e745e9b7279f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_353b7eca_a5f8_4628_9059_e745e9b7279f",
+        "en" : "round of counter strike"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e35f6432_35c9_4d54_9ad0_9a9b181119c9",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_e35f6432_35c9_4d54_9ad0_9a9b181119c9",
+        "en" : "single round of chess game"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Session class describes a session of gameplay."
+    },
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Game",
+      "en" : "Game"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_549a7490_23a1_4da9_bc34_540051ca135f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_549a7490_23a1_4da9_bc34_540051ca135f",
+        "en" : "pong"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a4da7ebb_5964_44bb_8bc2_5d7d60b0db8f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_a4da7ebb_5964_44bb_8bc2_5d7d60b0db8f",
+        "en" : "Space Invaders"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_83b17ece_d789_4bef_9886_de6db68970ec",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_83b17ece_d789_4bef_9886_de6db68970ec",
+        "en" : "GTA"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_125939ec_dd39_4d3d_b69d_9c84fd788f89",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_125939ec_dd39_4d3d_b69d_9c84fd788f89",
+        "en" : "Need for Speed"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fa26a351_8bec_4e20_b4bb_e77498b3e281",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_fa26a351_8bec_4e20_b4bb_e77498b3e281",
+        "en" : "Space Quest"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a2b670b_5ebd_4db7_bd8e_d4e3b497490f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_6a2b670b_5ebd_4db7_bd8e_d4e3b497490f",
+        "en" : "NHL12"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c3b08046_a95d_4746_9d31_31b585146d26",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_c3b08046_a95d_4746_9d31_31b585146d26",
+        "en" : "Pokemon"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The Game class describes a game product that can be played by a player."
+    },
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Curiosity",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Curiosity",
+      "en" : "Curiosity"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#jump_without_dying",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "jump_without_dying"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Curiosity describes funny random things that can happen or be found in the game."
+    },
+    "id" : "2",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Game_Event",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Game_Event",
+      "en" : "Game_Event"
+    },
+    "subClasses" : [ "34", "35" ],
+    "comment" : {
+      "undefined" : "Game_Event describes an event that takes place in a game without straight player interaction. GameEvents are often very specific for each game."
+    },
+    "id" : "33",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "40",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "23",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Feature",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Feature",
+      "en" : "Feature"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a4f1b00_9902_42a0_892e_0d98dc40f755",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_3a4f1b00_9902_42a0_892e_0d98dc40f755",
+        "en" : "portable"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d178d9b8_0b77_4f3a_8535_856e196941cb",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_d178d9b8_0b77_4f3a_8535_856e196941cb",
+        "en" : "Magic Potion"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_283d94ed_cd09_42be_8105_923399b1ba85",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_283d94ed_cd09_42be_8105_923399b1ba85",
+        "en" : "Equipable"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6e51f718_5649_4458_ad37_d8331a8b286d",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_6e51f718_5649_4458_ad37_d8331a8b286d",
+        "en" : "Magic"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Feature describes an ability or characteristic. For example, a sword could have “damage dealing” ability and a bottle of water could be “potable”."
+    },
+    "id" : "41"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OWLClass_9961a12c_6ceb_47e0_947e_cfda481dea3a",
+      "en" : "Location"
+    },
+    "individuals" : [ {
+      "iri" : "http://purl.obolibrary.org/obo/Z_60",
+      "baseIri" : "http://purl.obolibrary.org/obo",
+      "labels" : {
+        "IRI-based" : "Z_60"
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/Y_58",
+      "baseIri" : "http://purl.obolibrary.org/obo",
+      "labels" : {
+        "IRI-based" : "Y_58"
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/X_47",
+      "baseIri" : "http://purl.obolibrary.org/obo",
+      "labels" : {
+        "IRI-based" : "X_47"
+      }
+    } ],
+    "comment" : {
+      "en" : "Location defines the location in map where the players die the most."
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Difficulty",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Difficulty",
+      "en" : "Difficulty"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_67dbe8e8_07c4_4441_89fd_aaac80add5fd",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_67dbe8e8_07c4_4441_89fd_aaac80add5fd",
+        "en" : "Hard"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_8bb8957f_daeb_46d3_8550_47cff639d893",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_8bb8957f_daeb_46d3_8550_47cff639d893",
+        "en" : "Intermediate"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_cb30a452_91a0_4e24_9de9_04c239364bfd",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_cb30a452_91a0_4e24_9de9_04c239364bfd",
+        "en" : "Easy"
+      }
+    } ],
+    "subClasses" : [ "32", "29", "39" ],
+    "comment" : {
+      "undefined" : "The difficulty achievement describes succeeding in a game on a difficulty level. An example could be completing the “Doom” game on Nightmare difficulty level."
+    },
+    "id" : "30",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#VR",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VR",
+      "en" : "VR"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fe3f07a4_1be5_426f_a72f_9b05811531ef",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_fe3f07a4_1be5_426f_a72f_9b05811531ef",
+        "en" : "Until You Fall"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_200176ba_cb0a_4c6c_8de5_e12310db2b54",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_200176ba_cb0a_4c6c_8de5_e12310db2b54",
+        "en" : "The Last City"
+      }
+    } ],
+    "comment" : {
+      "en" : "What are the best video games for users who uses virtual reality .It defines all the games that can run on HMDs (Head Mounted Displays) system."
+    },
+    "id" : "47",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Collection",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Collection",
+      "undefined" : "Collection"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#player's_suit",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "player's_suit"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#coins",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "coins"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Collection type of achievement is typically rewarded from collecting an amount of certain items in a game."
+    },
+    "id" : "51",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Item",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Item",
+      "en" : "Item"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ada6bfe0_2dc7_40e4_bbfe_61580c6e465b",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_ada6bfe0_2dc7_40e4_bbfe_61580c6e465b",
+        "en" : "Sword of Zelda"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_517a18ec_6498_4255_93c5_b0fa9f493652",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_517a18ec_6498_4255_93c5_b0fa9f493652",
+        "en" : "Magical Hat"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_46cc4604_0954_416a_bed9_7af0f7524bb2",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_46cc4604_0954_416a_bed9_7af0f7524bb2",
+        "en" : "Ferrari"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a5f6d7ab_7962_443c_8241_70a78f03712f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_a5f6d7ab_7962_443c_8241_70a78f03712f",
+        "en" : "Audi A8"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9effea30_dcd1_46f8_98f3_07a9946924b5",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_9effea30_dcd1_46f8_98f3_07a9946924b5",
+        "en" : "Dragon  Armor"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d178d9b8_0b77_4f3a_8535_856e196941cb",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_d178d9b8_0b77_4f3a_8535_856e196941cb",
+        "en" : "Magic Potion"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fde5fff1_9824_42fa_b624_9b0740cce509",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_fde5fff1_9824_42fa_b624_9b0740cce509",
+        "en" : "Dagger of Ice"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_918c3e8e_8f2a_42c2_88f4_440d9c39b777",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_918c3e8e_8f2a_42c2_88f4_440d9c39b777",
+        "en" : "Consumable"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0476ba81_62e7_454c_98ba_b85cf8e30b6a",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_0476ba81_62e7_454c_98ba_b85cf8e30b6a",
+        "en" : "Cookie"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b4125017_8b79_4766_8484_3665ba1d438f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_b4125017_8b79_4766_8484_3665ba1d438f",
+        "en" : "Equipable"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7cdc65c6_b79a_448e_bb9c_8faa5bfa0810",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_7cdc65c6_b79a_448e_bb9c_8faa5bfa0810",
+        "en" : "Mage’s Hat"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_49eae105_0578_4f5c_8c43_a8b9e76b375d",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_49eae105_0578_4f5c_8c43_a8b9e76b375d",
+        "en" : "Damage­dealing"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_df8659c0_47a8_4800_abd3_0ce170028e0d",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_df8659c0_47a8_4800_abd3_0ce170028e0d",
+        "en" : "Magic"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_90b976bb_e240_4826_b4a7_72afb58d3ba4",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_90b976bb_e240_4826_b4a7_72afb58d3ba4",
+        "en" : "Health Potion"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f11c2eba_8e5a_43b5_a65b_d5d78ea7cd37",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_f11c2eba_8e5a_43b5_a65b_d5d78ea7cd37",
+        "en" : "Consumable Items"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dd23976b_6da7_4abf_a0ba_2e0df2d60629",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_dd23976b_6da7_4abf_a0ba_2e0df2d60629",
+        "en" : "Cute Cakes"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4dca5e9c_781c_4ab6_ac89_862f253aa203",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_4dca5e9c_781c_4ab6_ac89_862f253aa203",
+        "en" : "Sword of Steel"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2c303ccc_fae2_4d49_a349_564008eae867",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_2c303ccc_fae2_4d49_a349_564008eae867",
+        "en" : "Magical Staff"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2a2fa1c3_5914_40f4_8391_46ad44aa6804",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_2a2fa1c3_5914_40f4_8391_46ad44aa6804",
+        "en" : "Equipable"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4fc3833a_4b65_4ce4_8454_dcaad478507f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_4fc3833a_4b65_4ce4_8454_dcaad478507f",
+        "en" : "Health Potion"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a42d63e_db01_4fac_a380_62745e6fd2ba",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_0a42d63e_db01_4fac_a380_62745e6fd2ba",
+        "en" : "Potion of Mana"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6371bf19_b210_4708_9673_a16b1565f82c",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_6371bf19_b210_4708_9673_a16b1565f82c",
+        "en" : "Ferrari"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_99d7b26c_3131_42cc_8302_4e6474a4beab",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_99d7b26c_3131_42cc_8302_4e6474a4beab",
+        "en" : "Baseball bat"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Item portrays any item that exists in a game. The item can either be just visual part of the game or a concrete usable item."
+    },
+    "id" : "14"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "58",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Person",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person",
+      "en" : "Person"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c899bb14_fff5_4361_856c_def2b7508d9e",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_c899bb14_fff5_4361_856c_def2b7508d9e",
+        "en" : "car"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5a121ef_70f5_4423_b788_bf1cfbd25ef3",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_e5a121ef_70f5_4423_b788_bf1cfbd25ef3",
+        "en" : "human"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6a7a4340_17b5_44eb_a325_892a1f1c2bb9",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_6a7a4340_17b5_44eb_a325_892a1f1c2bb9",
+        "en" : "spaceship"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2ed6b976_c690_4ade_9ef6_85885faa069f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_2ed6b976_c690_4ade_9ef6_85885faa069f",
+        "en" : "monster"
+      }
+    } ],
+    "subClasses" : [ "16" ],
+    "comment" : {
+      "en" : "Person describes the entity playing the game. This can be either a human or a computer."
+    },
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player_Event",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Player_Event",
+      "en" : "Player_Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5c0df4db_216c_4ad8_879c_1c81530279b7",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_5c0df4db_216c_4ad8_879c_1c81530279b7",
+        "en" : "Save game"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_52829178_de66_4024_b7b8_1fb35e52e561",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_52829178_de66_4024_b7b8_1fb35e52e561",
+        "en" : "24, 600"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5f426fc2_620d_43d6_932a_478a01993ed2",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_5f426fc2_620d_43d6_932a_478a01993ed2",
+        "en" : "throw"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_29ea5464_66c9_45ba_8c2a_6100b4ba79c5",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_29ea5464_66c9_45ba_8c2a_6100b4ba79c5",
+        "en" : "40.000"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e5525f1f_3aef_4815_913a_8859ab732f27",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_e5525f1f_3aef_4815_913a_8859ab732f27",
+        "en" : "Change equipment"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13681e66_defc_4079_9b9f_6c08096a0175",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_13681e66_defc_4079_9b9f_6c08096a0175",
+        "en" : "jump"
+      }
+    } ],
+    "comment" : {
+      "en" : "PlayerEvent describes a Event that is caused by the player."
+    },
+    "id" : "82",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Minigame",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Minigame",
+      "en" : "Minigame"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#mini_tasks",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "mini_tasks"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f1a6e152_680f_49f6_91b6_50fef4158421",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_f1a6e152_680f_49f6_91b6_50fef4158421",
+        "en" : "complete level 2"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a1b6bd05_e071_4fea_89e0_744d26955443",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_a1b6bd05_e071_4fea_89e0_744d26955443",
+        "en" : "complete level 1"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Minigame achievement describes success in mini-games that have been included in a certain game but are not vital for completing the game."
+    },
+    "id" : "57",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#In-App_Purchase_Event",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "In-App_Purchase_Event",
+      "en" : "In-App_Purchase_Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_433303cc_d268_4817_98ce_251e41dbfc89",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_433303cc_d268_4817_98ce_251e41dbfc89",
+        "en" : "87 minutes"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eb861fe4_be4f_4c3c_925d_bf23f3f3b821",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_eb861fe4_be4f_4c3c_925d_bf23f3f3b821",
+        "en" : "1 hour"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_edbde812_032d_4c9a_9c4c_6a696bcedde8",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_edbde812_032d_4c9a_9c4c_6a696bcedde8",
+        "en" : "Evening"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d0219911_8069_4fd3_881a_eebb1538f166",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_d0219911_8069_4fd3_881a_eebb1538f166",
+        "en" : "2 weeks"
+      }
+    } ],
+    "subClasses" : [ "21" ],
+    "comment" : {
+      "undefined" : "InAppPurchaseEvent describes an event that is related to making a purchase with real money inside a game. This is a subclass of InstantaneousEvent because it happens at certain moment in time."
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Paragon",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Paragon",
+      "en" : "Paragon"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#complete_task_before_time_ends",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "complete_task_before_time_ends"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Paragon is a rare achievement that is given only to limited number of players."
+    },
+    "id" : "83",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OWLClass_6eb9146e_8c8d_4a9a_8245_aa346ccd41c4",
+      "en" : "map"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_325195a7_88d9_4b27_9ddf_074893b4174c",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_325195a7_88d9_4b27_9ddf_074893b4174c",
+        "en" : "RunRun"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_67862210_b7bf_4355_8699_7545535079e6",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_67862210_b7bf_4355_8699_7545535079e6",
+        "en" : "de_dust"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_56455cc7_e79f_4704_8ea2_d14c8a2d1f19",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_56455cc7_e79f_4704_8ea2_d14c8a2d1f19",
+        "en" : "cs_italy"
+      }
+    } ],
+    "subClasses" : [ "18" ],
+    "comment" : {
+      "en" : "Map defines the favriot map of the player."
+    },
+    "attributes" : [ "external" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Event",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event",
+      "en" : "Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b8adda22_c914_4ddc_8662_03ece785b6d8",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_b8adda22_c914_4ddc_8662_03ece785b6d8",
+        "en" : "kill enemy"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_da8fc289_5039_4cbf_acf9_806c63bae55a",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_da8fc289_5039_4cbf_acf9_806c63bae55a",
+        "en" : "0 Goal"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f979d824_4c82_42dc_b30d_1e7dc5e38f6b",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_f979d824_4c82_42dc_b30d_1e7dc5e38f6b",
+        "en" : "4 Times killed"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3a0fc647_465b_4176_aa4c_da5ca421055c",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_3a0fc647_465b_4176_aa4c_da5ca421055c",
+        "en" : "make decision for in-purchase"
+      }
+    } ],
+    "subClasses" : [ "4", "82", "100", "33" ],
+    "comment" : {
+      "undefined" : "Event class describes an event that happens during the gameplay at a certain moment in time. This can be a player gaining an achievement, killing an enemy or making an in-app purchase."
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Achievement",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Achievement",
+      "en" : "Achievement"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ed251731_1701_4d59_a7ea_19d1aa929c75",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_ed251731_1701_4d59_a7ea_19d1aa929c75",
+        "en" : "tutorial"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_43be82ea_fea9_4b11_9d67_6517b7c95140",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_43be82ea_fea9_4b11_9d67_6517b7c95140",
+        "en" : "specialplaystyle"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fe260cc_9ff5_44c8_a2f3_6eada7c518c6",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_0fe260cc_9ff5_44c8_a2f3_6eada7c518c6",
+        "en" : "You Rock"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_63e1620c_b31e_4207_89da_0b65e32123cc",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_63e1620c_b31e_4207_89da_0b65e32123cc",
+        "en" : "loyalty"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2bedf517_9982_4e9c_9876_65dbe96db000",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_2bedf517_9982_4e9c_9876_65dbe96db000",
+        "en" : "paragon"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ad48d710_fc07_4873_ad4e_3d8fac95445b",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_ad48d710_fc07_4873_ad4e_3d8fac95445b",
+        "en" : "curiosity"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b91b8910_619f_41bf_a45e_bfd3763494d0",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_b91b8910_619f_41bf_a45e_bfd3763494d0",
+        "en" : "fandom"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_89280162_ca79_40d9_82bc_009cbd1689c4",
+        "en" : "difficulty"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_4d5a6c0b_1cce_4e91_a867_f0b44d4a8fc2",
+        "en" : "vituosity"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2dc5b9c6_f3bf_4a32_93ec_ce5ad2f9afa3",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_2dc5b9c6_f3bf_4a32_93ec_ce5ad2f9afa3",
+        "en" : "completion"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e3bd2929_150a_4f54_b9bb_643b750422e1",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_e3bd2929_150a_4f54_b9bb_643b750422e1",
+        "en" : "collection"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_eae4eb13_fe89_4db8_9b6d_3a6b616fc211",
+        "en" : "minigame"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0deb6ea2_66f5_4912_a354_4ee81cfd417e",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_0deb6ea2_66f5_4912_a354_4ee81cfd417e",
+        "en" : "multiplayer"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_879c5e22_8d3a_4889_9157_02c55e68e930",
+        "en" : "luck"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ccbf3890_ad44_4bc4_bebc_d8a3d06d31f0",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_ccbf3890_ad44_4bc4_bebc_d8a3d06d31f0",
+        "en" : "Unlock me"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_0b262ad3_997e_4e32_a946_36355a5092c1",
+        "en" : "veteran"
+      }
+    } ],
+    "subClasses" : [ "102", "30", "51", "103", "104", "105", "98", "57", "91", "80", "71", "2", "83", "85" ],
+    "comment" : {
+      "undefined" : "Achievement is a reward gained in a game due to some event accomplished in the game. Achievements are commonly used in game industry to reward players for having accomplished tasks in the game."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Completion",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Completion",
+      "en" : "Completion"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#save_princess",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "save_princess"
+      }
+    } ],
+    "comment" : {
+      "en" : "Completion type of achievement is usually rewarded from successfully completing a certain goal or subgoal in a game."
+    },
+    "id" : "91",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Special_play_style",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Special_play_style",
+      "en" : "Special_play_style"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7be9cdaa_0291_4ef7_9d4c_49785c551a1c",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_7be9cdaa_0291_4ef7_9d4c_49785c551a1c",
+        "en" : "before time ends"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#without_violance",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "without_violance"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "SpecialPlayStyle achievement is awarded to players after playing a game in special fashion. Often this is something harder than the regular play and requires more player experience to excel in it."
+    },
+    "id" : "71",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Plateforms",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Plateforms",
+      "en" : "Platform"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_00d1664c_3e45_44e0_b538_e7d9019581ae",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_00d1664c_3e45_44e0_b538_e7d9019581ae",
+        "en" : "windows"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a631160_c188_4d51_8759_50feb9b774f5",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_0a631160_c188_4d51_8759_50feb9b774f5",
+        "en" : "android"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e851e7c0_e20e_405b_83d2_577185c49bff",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_e851e7c0_e20e_405b_83d2_577185c49bff",
+        "en" : "mac"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_71071603_573b_4dfd_8aca_da26d6847db9",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_71071603_573b_4dfd_8aca_da26d6847db9",
+        "en" : "vr"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_6eda01d1_9313_4787_9606_24c367f8d502",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_6eda01d1_9313_4787_9606_24c367f8d502",
+        "en" : "linux"
+      }
+    } ],
+    "subClasses" : [ "66", "47", "62", "76", "67" ],
+    "comment" : {
+      "en" : "Video Games are classified by platforms where they can run and played by player."
+    },
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Gain_Event",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gain_Event",
+      "en" : "Gain_Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c1d18352_6c32_488d_aeac_bc5f2a99dab7",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_c1d18352_6c32_488d_aeac_bc5f2a99dab7",
+        "en" : "Sword of Zelda"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9e37b57e_8245_4600_bfe0_805fea8fcddc",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_9e37b57e_8245_4600_bfe0_805fea8fcddc",
+        "en" : "Dagger of Ice"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The GainEvent describes an event that is related to character/player gaining something in a game."
+    },
+    "id" : "35",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OWLClass_74b4048c_3834_4229_926b_e073de1fc6fb",
+      "en" : "EasyMode"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0a2feac9_3da3_4020_bd90_2abaca44bb06",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_0a2feac9_3da3_4020_bd90_2abaca44bb06",
+        "en" : "Easy"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The EasyMode difficulty achievement describes succeeding in a game on a easy level"
+    },
+    "attributes" : [ "external" ],
+    "id" : "32",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_33c74812_4aa9_4ea7_b05c_2b211e54a66e",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OWLClass_33c74812_4aa9_4ea7_b05c_2b211e54a66e",
+      "en" : "Gameproducts"
+    },
+    "comment" : {
+      "en" : "GameProduct is anything that is for sale inside a game. These can be either normal game items purchased with in-game currency or with real world money."
+    },
+    "attributes" : [ "external" ],
+    "id" : "119"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Lose_Event",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lose_Event",
+      "en" : "Lose_Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d17a894f_6613_4fb0_82d4_8f0647e1427b",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_d17a894f_6613_4fb0_82d4_8f0647e1427b",
+        "en" : "40 Times"
+      }
+    } ],
+    "comment" : {
+      "en" : "LoseEvent describes an event that is related to character/player losing something in a game. This is a subclass of GameEvent as gaining something is related to a specific game."
+    },
+    "id" : "34",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Player",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Player",
+      "undefined" : "Player"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4013a8eb_a687_4327_a896_911dc07a9a96",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_4013a8eb_a687_4327_a896_911dc07a9a96",
+        "en" : "abdullah26"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_3fe03000_e4df_4436_958a_bf09a5e2a44c",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_3fe03000_e4df_4436_958a_bf09a5e2a44c",
+        "en" : "Agent27"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1298d860_6ff0_4c04_9ba9_34a0e9eb8791",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_1298d860_6ff0_4c04_9ba9_34a0e9eb8791",
+        "en" : "sadi_01"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_2525c32e_66b9_4fbc_a35f_b3e2a8b9e010",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_2525c32e_66b9_4fbc_a35f_b3e2a8b9e010",
+        "en" : "maria_z"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_13eeb169_5a60_4d86_a699_941c175761db",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_13eeb169_5a60_4d86_a699_941c175761db",
+        "en" : "aqib_01"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_5d7a83ad_f18c_4698_b509_71071a9f10b0",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_5d7a83ad_f18c_4698_b509_71071a9f10b0",
+        "en" : "Atif Aslam"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The Player describes the entity playing the game. This can be either a human or a computer. Player class is used to keep a profile of a certain playing entity and to connect all the games, achievements and characters he/she has. The Player is a subclass of Person as it contains all relative information of a certain person."
+    },
+    "id" : "16",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Veteran",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Veteran",
+      "en" : "Veteran"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_a6077372_bdf3_4865_853e_82d64660e514",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_a6077372_bdf3_4865_853e_82d64660e514",
+        "en" : "100 goals in ice hockey"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fb30cd3f_3eab_45fa_8d8f_5785917d8426",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_fb30cd3f_3eab_45fa_8d8f_5785917d8426",
+        "en" : "thousand hours of world of tanks"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#experience_of_game",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "experience_of_game"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Veteran achievement is an award that is given for accumulating a lot of play hours or game actions."
+    },
+    "id" : "104",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Fandom",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fandom",
+      "en" : "Fandom"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gathering_of_player",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "gathering_of_player"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Fandom achievement is related to doing some true fan activities."
+    },
+    "id" : "105",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Linux",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Linux",
+      "en" : "Linux"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_9d478e3e_8bd3_4a4f_a630_c974800df199",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_9d478e3e_8bd3_4a4f_a630_c974800df199",
+        "en" : "Age of Empires II"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_cbd8a300_2329_493e_ade0_fb0761f6da82",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_cbd8a300_2329_493e_ade0_fb0761f6da82",
+        "en" : "The Witcher 3"
+      }
+    } ],
+    "comment" : {
+      "en" : "What are the best video games for linux based users.It defines all the games that can run on linux based operating system."
+    },
+    "id" : "66",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Genre",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Genre",
+      "en" : "Genre"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6803049_2ee8_48da_90e6_2a5fd45578ae",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_b6803049_2ee8_48da_90e6_2a5fd45578ae",
+        "en" : "Adventure"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_e658a4fe_7cad_45a7_ac6e_9f9801688e7e",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_e658a4fe_7cad_45a7_ac6e_9f9801688e7e",
+        "en" : "RPG"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_82e596b0_0b07_4a62_b5bb_b3043e92d957",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_82e596b0_0b07_4a62_b5bb_b3043e92d957",
+        "en" : "Simulator"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d26d18bd_b15b_4ccf_a4e3_54243639f79c",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_d26d18bd_b15b_4ccf_a4e3_54243639f79c",
+        "en" : "Puzzle"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_7bfd76e0_c5ad_445f_8cd8_2a08e36141bf",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_7bfd76e0_c5ad_445f_8cd8_2a08e36141bf",
+        "en" : "Sports"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Genre class describes the genre a game belongs to. All of the games have at least one genre. Examples of this are RPG, Simulator and Adventure"
+    },
+    "id" : "122"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Multiplayer",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Multiplayer",
+      "en" : "Multiplayer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#teams",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "teams"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Multiplayer achievement describes anything that can be awarded to one or multiple players due to their gameplay in multiplayer."
+    },
+    "id" : "80",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#gaming_companies",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "gaming_companies",
+      "en" : "Gaming_Companies"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_dc641a67_dd5f_4e06_947b_0dc64167297e",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_dc641a67_dd5f_4e06_947b_0dc64167297e",
+        "en" : "Electronic Arts"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1b037e3d_3062_447f_a0a5_5666a079bbb8",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_1b037e3d_3062_447f_a0a5_5666a079bbb8",
+        "en" : "Jon Doe"
+      }
+    } ],
+    "comment" : {
+      "en" : "Gaming Companies are the companies that developed video games for users."
+    },
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Character",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Character",
+      "en" : "Character"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#spaceship",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "spaceship"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#car",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "car"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#human",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "human"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Character is any actor that can exists in a game. A character  can be a human-like creature as seen traditionally in video games. However, a character could also be a car, a paddle in game of Pong or spaceship of a space shooter game."
+    },
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Android",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Android",
+      "en" : "Android"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_84f937a4_a8f4_4f02_89ec_d84a01f49d0b",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_84f937a4_a8f4_4f02_89ec_d84a01f49d0b",
+        "en" : "pokemon"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_beeb1c12_d17d_4e02_866a_e3e13ba01f17",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_beeb1c12_d17d_4e02_866a_e3e13ba01f17",
+        "en" : "minecraft"
+      }
+    } ],
+    "comment" : {
+      "en" : "What are the best video games for android-based users.It defines all the games that can run on android operating system."
+    },
+    "id" : "76",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OWLClass_d34aede2_ac15_45d2_95b1_782b7687d65f",
+      "en" : "Intermediate"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_c2e6f045_cf53_4bf5_9ed2_d3246352567d",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_c2e6f045_cf53_4bf5_9ed2_d3246352567d",
+        "en" : "Intermediate"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The Intermediate Mode difficulty achievement describes succeeding in a game on a Intermediate level"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Playing_area",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Playing_area",
+      "en" : "Playing_Area"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_950fe555_046b_414f_88c2_fe64c19529ae",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_950fe555_046b_414f_88c2_fe64c19529ae",
+        "en" : "Pakistan"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_f452e215_8ca9_4a1c_b32c_13f983e9bfec",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_f452e215_8ca9_4a1c_b32c_13f983e9bfec",
+        "en" : "India"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_18f2573e_e7ac_40c1_ad70_a147152b9bf0",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_18f2573e_e7ac_40c1_ad70_a147152b9bf0",
+        "en" : "Paris"
+      }
+    } ],
+    "comment" : {
+      "en" : "PlayingArea is the description of a place where the gameplay takes place. All of the games have some kind of area where they are played in."
+    },
+    "id" : "126"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Loyalty",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Loyalty",
+      "en" : "Loyalty"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_items",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "purchase_items"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Loyalty achievement is used to give recognition to loyal players."
+    },
+    "id" : "103",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Vituosity",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vituosity",
+      "en" : "Vituosity"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#unique_skills",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "unique_skills"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_0fb4e733_db08_4fff_b1d2_78b7edfc66d0",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_0fb4e733_db08_4fff_b1d2_78b7edfc66d0",
+        "en" : "dying zero time"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_4be6c3e1_f0d0_4a4f_b4fb_500332919af1",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_4be6c3e1_f0d0_4a4f_b4fb_500332919af1",
+        "en" : "preventing opposing team from scoring"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Virtuosity describes an achievement that is awarded for playing masterfully in the game."
+    },
+    "id" : "98",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Tutorial",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tutorial",
+      "en" : "Tutorial"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#learn",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "learn"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b6ba69d4_b2c8_42dc_b025_8eecb5e56032",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_b6ba69d4_b2c8_42dc_b025_8eecb5e56032",
+        "en" : "learn to play"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Tutorial achievement is  awarded to a player for trying out various features of the game. This is often related to learning how to play the game, how the controls work and how the game logic works."
+    },
+    "id" : "102",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Leaderboard",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Leaderboard",
+      "en" : "Leaderboard"
+    },
+    "comment" : {
+      "undefined" : "Leaderboard class describes a ranking system of the players. There can be multiple rankings in a game, for example, the kill-count ranking of Modern Warfare or the best time listing of Formula 1 game."
+    },
+    "id" : "107"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OWLClass_fa163ade_a2f7_4f55_b447_9d83a8ce58c8",
+      "en" : "Lives In"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_596c886b_5831_4341_8202_3f215d9f2fd9",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_596c886b_5831_4341_8202_3f215d9f2fd9",
+        "en" : "India"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_118d3b82_b8d9_4081_b95e_07b4d9eaa1e6",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_118d3b82_b8d9_4081_b95e_07b4d9eaa1e6",
+        "en" : "South America"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_b0090640_46f3_4426_890e_41f238539896",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_b0090640_46f3_4426_890e_41f238539896",
+        "en" : "Brazil"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_ab860daa_f2c2_4fd0_883b_a2342ec60634",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_ab860daa_f2c2_4fd0_883b_a2342ec60634",
+        "en" : "Pakistan"
+      }
+    } ],
+    "comment" : {
+      "en" : "The players who have done the most in­app purchases lives in."
+    },
+    "attributes" : [ "external" ],
+    "id" : "21",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Menu_Event",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Menu_Event",
+      "en" : "Menu_Event"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_92cf12c3_8f73_4bc3_89ce_54e103acc28a",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_92cf12c3_8f73_4bc3_89ce_54e103acc28a",
+        "en" : "50%"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_efea76df_8142_4ce9_8f99_6bd14ee5ca50",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_efea76df_8142_4ce9_8f99_6bd14ee5ca50",
+        "en" : "50 000"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Menu_Event describes an event that is related to interacting with the ingame menu."
+    },
+    "id" : "100",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Luck",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Luck",
+      "en" : "Luck"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_20992887_dd58_4af2_874f_2185f88277f1",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_20992887_dd58_4af2_874f_2185f88277f1",
+        "en" : "win lottery"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d5600e2d_347f_4e5c_800d_698b09b36de9",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_d5600e2d_347f_4e5c_800d_698b09b36de9",
+        "en" : "throwing yahtzee"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#extra_coins",
+      "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+      "labels" : {
+        "IRI-based" : "extra_coins"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Lucky describes an achievement that is awarded to the player in a lucky situation."
+    },
+    "id" : "85",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLClass_15756aa1_1619_4f9b_883f_8e33fb7ec005",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OWLClass_15756aa1_1619_4f9b_883f_8e33fb7ec005",
+      "en" : "Hard Mode"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_1fc19d3d_db53_46d0_aa04_65c74045ef62",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_1fc19d3d_db53_46d0_aa04_65c74045ef62",
+        "en" : "Hard"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "The HardMode difficulty achievement describes succeeding in a game on a hard level"
+    },
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Mac",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mac",
+      "en" : "Mac"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_fe0243e3_2f12_4670_9c8b_c442ea4208e9",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_fe0243e3_2f12_4670_9c8b_c442ea4208e9",
+        "en" : "civilization vi"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_936a38f8_e2e9_4abc_a4e9_d77ceae9773f",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_936a38f8_e2e9_4abc_a4e9_d77ceae9773f",
+        "en" : "hades"
+      }
+    } ],
+    "comment" : {
+      "en" : "What are the best video games for mac based users.It defines all the games that can run on mac based operating system."
+    },
+    "id" : "67",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#Windows",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Windows",
+      "en" : "Windows"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_bdd84046_8716_49b9_b161_1d46709eedc1",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_bdd84046_8716_49b9_b161_1d46709eedc1",
+        "en" : "crush the castle"
+      }
+    }, {
+      "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLNamedIndividual_d7707f07_4c86_4eef_a1b6_52c344015ba4",
+      "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+      "labels" : {
+        "IRI-based" : "OWLNamedIndividual_d7707f07_4c86_4eef_a1b6_52c344015ba4",
+        "en" : "simsville"
+      }
+    } ],
+    "comment" : {
+      "en" : "What are the best video games for windows based users.It defines all the games that can run on windows based operating system."
+    },
+    "id" : "62",
+    "superClasses" : [ "48" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "61",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "68",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "106",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "110",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "130",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "131",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "135",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "143",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "144",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "145",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "150",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "157",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "158",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "159",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "164",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "165",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "167",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_17289fbb_7d91_440e_8ed2_273b2a5a37f4",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_17289fbb_7d91_440e_8ed2_273b2a5a37f4",
+      "en" : "has_curiosity"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#creator",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "creator"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "7",
+    "attributes" : [ "object", "inverse functional" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_achieved_in_session",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "is_achieved_in_session"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_session_in_game",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "is_session_in_game"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_related_to_item",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "is_event_related_to_item"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_player_in_session",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "is_player_in_session"
+    },
+    "domain" : "16",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "15"
+  }, {
+    "range" : "19",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "range" : "4",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#lives_in",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "lives_in"
+    },
+    "domain" : "16",
+    "attributes" : [ "object", "functional" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "23",
+    "subproperty" : [ "24", "6", "25" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_achievement",
+    "inverse" : "27",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "has_achievement"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "26"
+  }, {
+    "range" : "30",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "30",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "37",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "30",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "33",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "33",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_in_session",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "is_event_in_session"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_associated_to_player",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "is_event_associated_to_player"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_87f5677c_ad41_41e2_ad56_0b9e94757d34",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_87f5677c_ad41_41e2_ad56_0b9e94757d34",
+      "en" : "has_gain_event"
+    },
+    "domain" : "33",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_friend_with_player",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "is_friend_with_player",
+      "en" : "is friend with player"
+    },
+    "superproperty" : [ "50" ],
+    "domain" : "16",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_character_in_session",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "is_character_in_session"
+    },
+    "domain" : "53",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_74fdbf94_40a0_4ef3_b870_0112c0043a6e",
+      "en" : "has_minigame"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#involves_player",
+    "inverse" : "15",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "involves_player"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "functional" ],
+    "id" : "60"
+  }, {
+    "range" : "62",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "67",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_d1e0b7f3_a396_41b9_9a6a_1ee749a03904",
+      "en" : "has_map"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "68"
+  }, {
+    "range" : "62",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ddb579bf_d5dd_47d7_b91c_df7ac3b98e11",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "71",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_ddb579bf_d5dd_47d7_b91c_df7ac3b98e11",
+      "en" : "has_special_play_style"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "70"
+  }, {
+    "range" : "47",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "48",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "48",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "48",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_item_in_game",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "is_item_in_game"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#involves_achievement",
+    "inverse" : "10",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "involves_achievement"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "functional" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_aa560e34_d0c6_4c38_8d53_ee1c99a4d909",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_aa560e34_d0c6_4c38_8d53_ee1c99a4d909",
+      "en" : "has_multiplayer"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_achievement_in_game",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "is_achievement_in_game"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_a34b2f8d_ad19_49b2_a9f7_950a713c91e9",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_a34b2f8d_ad19_49b2_a9f7_950a713c91e9",
+      "en" : "is difficulty hard"
+    },
+    "domain" : "30",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "81"
+  }, {
+    "range" : "1",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "1",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "range" : "48",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "1",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
+    "range" : "1",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "1",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "1",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_character",
+    "inverse" : "95",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "has_character"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "94"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0a5875a2_9533_45c1_870a_5b02b28f51e1",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_0a5875a2_9533_45c1_870a_5b02b28f51e1",
+      "en" : "is difficulty easy"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "30",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "24"
+  }, {
+    "range" : "1",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "1",
+    "domain" : "98",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#end_Time",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "end_Time"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_even_triggered_by_character",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "is_even_triggered_by_character"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_leaderboard",
+    "inverse" : "108",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "has_leaderboard"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "106"
+  }, {
+    "range" : "1",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "1",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "1",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "1",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "112"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#unlocks_achievement",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "unlocks_achievement"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "113"
+  }, {
+    "range" : "1",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "5",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_leaderboard_in_game",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "is_leaderboard_in_game"
+    },
+    "domain" : "107",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "108"
+  }, {
+    "range" : "5",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "range" : "1",
+    "domain" : "102",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "5",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_0cec1cea_4e41_4b4d_9713_fee358fe6a8a",
+      "en" : "has_event"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_character",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "owns_character"
+    },
+    "domain" : "16",
+    "attributes" : [ "object", "functional" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_2af344a6_c316_4c02_ba23_d8a8ef21578b",
+      "en" : "has_vituosity"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_game",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "owns_game"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "functional" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#release_Date",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "release_Date"
+    },
+    "domain" : "7",
+    "attributes" : [ "datatype" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_platform",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "has_platform"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "48",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#start_Time",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "start_Time"
+    },
+    "domain" : "11",
+    "attributes" : [ "datatype" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_0cb0313f_3024_4a25_896b_cf039643016a",
+      "en" : "has_session"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#knows",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "knows"
+    },
+    "domain" : "23",
+    "subproperty" : [ "49" ],
+    "attributes" : [ "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ce550fb5_feb5_44fe_9fa5_622966cfa2bd",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_ce550fb5_feb5_44fe_9fa5_622966cfa2bd",
+      "en" : "has_difficulty"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_afc3606a_33b4_40c5_839d_a4b5830dc79b",
+      "en" : "has_veteran"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#event_Name",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "event_Name"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_d48b7dd1_1178_4cd6_b031_3349455550e3",
+      "en" : "has_game"
+    },
+    "domain" : "8",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_789e790d_d22f_439d_af9d_5fec34337c79",
+      "en" : "has_player_event"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_game_genre",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "has_game_genre"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_item",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "owns_item"
+    },
+    "domain" : "53",
+    "attributes" : [ "object", "functional" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_character_in_game",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "is_character_in_game"
+    },
+    "domain" : "53",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "95"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_c1f7362b_eadb_40fa_b10e_32b81db45d21",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "102",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_c1f7362b_eadb_40fa_b10e_32b81db45d21",
+      "en" : "has_tutorial"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#purchase_game_offering",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "purchase_game_offering"
+    },
+    "domain" : "4",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_ff77d432_0ccf_484d_ad93_317fe17d6039",
+      "en" : "has_luck"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_4b9ae9ec_d8a2_4b94_8b5d_2bb23dd77259",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_4b9ae9ec_d8a2_4b94_8b5d_2bb23dd77259",
+      "en" : "has_game_event"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_feature",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "has_feature"
+    },
+    "domain" : "14",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#owns_achievement",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "owns_achievement"
+    },
+    "domain" : "16",
+    "attributes" : [ "object", "functional" ],
+    "id" : "141"
+  }, {
+    "range" : "29",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "142"
+  }, {
+    "range" : "47",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "67",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "62",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#plays_game",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "plays_game"
+    },
+    "domain" : "16",
+    "attributes" : [ "object", "functional" ],
+    "id" : "146"
+  }, {
+    "range" : "66",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#username",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "58",
+    "label" : {
+      "IRI-based" : "username"
+    },
+    "domain" : "16",
+    "attributes" : [ "datatype" ],
+    "id" : "148"
+  }, {
+    "range" : "34",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "47",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#is_event_in_game",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "is_event_in_game"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "asymmetric" ],
+    "id" : "151"
+  }, {
+    "range" : "62",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_345e71cf_8685_45f6_9b40_4106c715e966",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "105",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_345e71cf_8685_45f6_9b40_4106c715e966",
+      "en" : "has_fandom"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "153"
+  }, {
+    "range" : "32",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_d50a0b75_a208_4ed2_b6f4_e0b0f10c08e8",
+      "en" : "has_difficulty"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "155"
+  }, {
+    "range" : "29",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_item",
+    "inverse" : "77",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "has_item"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#involves_character",
+    "inverse" : "52",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "involves_character"
+    },
+    "domain" : "11",
+    "attributes" : [ "object", "functional" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ed48ff91_19a6_4d40_9cbf_420616615d35",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_ed48ff91_19a6_4d40_9cbf_420616615d35",
+      "en" : "is difficulty intermediate"
+    },
+    "domain" : "30",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_30cb11ab_38b7_4bb7_8e2c_33b5a0ce135e",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_30cb11ab_38b7_4bb7_8e2c_33b5a0ce135e",
+      "en" : "has_completion"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_477f4d0c_fb71_454c_8075_31512a1d1f19",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "103",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_477f4d0c_fb71_454c_8075_31512a1d1f19",
+      "en" : "has_loyalty"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#has_playing_area",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "126",
+    "label" : {
+      "IRI-based" : "has_playing_area"
+    },
+    "domain" : "7",
+    "attributes" : [ "object", "symmetric" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f31793c9_a0c4_405f_9245_87682e47ee97",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "83",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_f31793c9_a0c4_405f_9245_87682e47ee97",
+      "en" : "has_paragon"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "163"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_32141b3c_2614_4244_b3ef_e3e25ccc1cba",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "100",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_32141b3c_2614_4244_b3ef_e3e25ccc1cba",
+      "en" : "has_menu_event"
+    },
+    "domain" : "5",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "164"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_f2b27d2e_d49d_4f6f_8cb1_8c70216f4c84",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_f2b27d2e_d49d_4f6f_8cb1_8c70216f4c84",
+      "en" : "has_loss_event"
+    },
+    "domain" : "33",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "165"
+  }, {
+    "iri" : "http://www.codeder.org/ontologies/VideoGameOntology#OWLObjectProperty_ea920f1b_4704_420d_b18f_338d5584ea97",
+    "baseIri" : "http://www.codeder.org/ontologies/VideoGameOntology",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "OWLObjectProperty_ea920f1b_4704_420d_b18f_338d5584ea97",
+      "en" : "has_collection"
+    },
+    "domain" : "1",
+    "attributes" : [ "object", "external", "symmetric" ],
+    "id" : "166"
+  }, {
+    "iri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2#event_Time",
+    "baseIri" : "http://www.semanticweb.org/hp/ontologies/2022/2/untitled-ontology-2",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "event_Time"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "167"
+  } ]
+}
